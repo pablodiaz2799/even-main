@@ -16,7 +16,7 @@
 .right-title p{
     font-family: Lato;
     font-weight: bold;
-    font-size: 72px;
+    font-size: 54px;
     color: rgb(100, 99, 99);
     letter-spacing: 0.03em;
     padding-right: 10%;
@@ -24,9 +24,9 @@
 }
 
 .icons{
-    margin-top: 20vh;
-    width: 60%;
-    margin-left: 20%;
+    margin-top: 10vh;
+    width: 50%;
+    margin-left: 25%;
 }
 
 .flex-row{
@@ -68,24 +68,29 @@
 
 .text-image-flex p{
     font-family: LatoRegular;
-    font-size: 24px;
+    font-size: 20px;
     color: rgb(100, 99, 99);
     letter-spacing: 0.05em;
     margin-top: 7vh;
-    width: 80%;
-    margin-left: 20%;
+}
+
+.text-image-description-container{
+    margin-left: 42%;
+    text-align: left;
+    margin-right: 4%;
 }
 
 .text-image-flex p.text-image-title{
     font-family: Lato;
     font-weight: bold;
-    font-size: 72px;
+    font-size: 54px;
     color: rgb(100, 99, 99);
     letter-spacing: 0.03em;
+    margin-left: 42%;
 }
 
 .text-image-flex img{
     width: 70%;
     height: auto;
-    margin-left: 15%;
+    margin-left: 10%;
 }
