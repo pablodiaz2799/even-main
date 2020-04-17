@@ -13,8 +13,4 @@ export const SINGLE_ROUTES: Routes = [
         path: 'servicios',
         loadChildren: () => import('../../pages/single-page-pages/our-services/our-services.module').then(m => m.OurServicesModule)
     },
-    {
-        path: 'contacto',
-        loadChildren: () => import('../../pages/single-page-pages/contact/contact.module').then(m => m.ContactModule)
-    },
 ];
