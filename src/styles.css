@@ -24,5 +24,10 @@
     font-weight: bold;
     src: url(../src/assets/fonts/Lato/Lato-Bold.ttf);
 }
+@font-face{
+    font-family: LatoRegular;
+    src: url(../src/assets/fonts/Lato/Lato-Regular.ttf);
+}
+
 
 

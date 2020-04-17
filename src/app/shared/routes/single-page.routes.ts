@@ -16,5 +16,5 @@ export const SINGLE_ROUTES: Routes = [
     {
         path: 'contacto',
         loadChildren: () => import('../../pages/single-page-pages/contact/contact.module').then(m => m.ContactModule)
-    }
+    },
 ];
