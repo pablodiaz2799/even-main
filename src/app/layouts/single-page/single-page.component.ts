@@ -16,4 +16,8 @@ export class SinglePageComponent implements OnInit {
     alert('NDEHA');
   }
 
+  receiveMessage($event) {
+    alert($event);
+  }
+
 }

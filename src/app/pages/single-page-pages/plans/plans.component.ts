@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Output, EventEmitter, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-plans',
@@ -7,9 +7,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PlansComponent implements OnInit {
 
+  private message = 'Hola Mundo!';
+
+  @Output() messageEvent = new EventEmitter<string>();
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  sendMessage() {
+    console.log('haha');
+    this.messageEvent.emit(this.message)
   }
 
 }

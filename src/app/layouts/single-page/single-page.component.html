@@ -25,9 +25,9 @@
                 <p class="introDesc">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
                     fugiat
                     nulla pariatur. </p>
-                <button (click)="clicked()" class="skybtn">
-                    <p class="buttonText">VER PLANES</p>
-                </button>
+                    <button (click)="clicked()" class="skybtn">
+                        <p class="buttonText">VER PLANES</p>
+                    </button>
             </div>
             <div class="introImgContainer">
                 <img src="../../../assets/svg/temwork.svg" class="introImg" />
@@ -42,13 +42,13 @@
     </div>
     <app-choose-us></app-choose-us>
     <div class="plans-contact">
-        <section class="inverse-waves">
+        <section class="inverse-waves" >
             <div class="wave-inverse wave1"></div>
             <!-- <div class="wave wave2"></div> -->
             <div class="wave-inverse wave3"></div>
             <div class="wave-inverse wave4"></div>
-            <app-plans></app-plans>
-            <app-contact></app-contact>
         </section>
+        <app-plans (messageEvent)="receiveMessage($event)" style="z-index: 3; position: relative;"></app-plans>
+        <app-contact style="z-index: 3; position: relative;"></app-contact>
     </div>
 </div>
