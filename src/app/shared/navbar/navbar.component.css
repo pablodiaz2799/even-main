@@ -1,45 +1,112 @@
-.flex-div{
-    display: flex;
-    height: 10vh;
-    width: 75%;
-    margin-left: 12.5%;
+@media (min-width: 1281px) {
+    .flex-div {
+        display: flex;
+        height: 10vh;
+        width: 75%;
+        margin-left: 12.5%;
+    }
+    .left-col {
+        flex: 1;
+    }
+    .right-col {
+        display: flex;
+        flex: 1;
+    }
+    .evenLogo {
+        width: 170px;
+        height: auto;
+        margin-top: 2%;
+    }
+    .menuContainer {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    /* .menuBtn{    
+        width: 25%;
+        cursor: default;
+        text-align: right;
+    } */
+    .navtxt {
+        margin-left: 10%;
+        font-size: 19px;
+        font-family: Lato;
+        letter-spacing: 0.03em;
+        color: white;
+        cursor: pointer;
+        text-align: right;
+    }
 }
 
-.left-col{
-    flex:1;
-    width: 100%;
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .flex-div {
+        display: flex;
+        height: 10vh;
+        width: 75%;
+        margin-left: 12.5%;
+    }
+    .left-col {
+        flex: 1;
+    }
+    .right-col {
+        display: flex;
+        flex: 1;
+    }
+    .evenLogo {
+        width: 120px;
+        height: auto;
+        margin-top: 11%;
+    }
+    .menuContainer {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .navtxt {
+        margin-left: 10%;
+        font-size: 14px;
+        font-family: Lato;
+        letter-spacing: 0.03em;
+        color: white;
+        cursor: pointer;
+        text-align: right;
+    }
 }
 
-.right-col{
-    display: flex;
-    flex:1;
-}
-
-.evenLogo{
-    width: 170px;
-    height: auto;
-    margin-top: 2%;
-}
-
-.menuContainer{
-    width: 100%;
-    display: flex;
-    justify-content: flex-end; 
-    align-items: center;
-}
-
-/* .menuBtn{    
-    width: 25%;
-    cursor: default;
-    text-align: right;
-} */
-
-.navtxt{
-    margin-left: 10%;
-    font-size: 19px;
-    font-family: Lato;
-    letter-spacing: 0.03em;
-    color: white;
-    cursor: pointer;
-    text-align: right;
+@media (min-width: 768px) and (max-width: 1024px) {
+    .flex-div {
+        display: flex;
+        height: 10vh;
+        width: 75%;
+        margin-left: 12.5%;
+    }
+    .left-col {
+        flex: 1;
+    }
+    .right-col {
+        display: flex;
+        flex: 1;
+    }
+    .evenLogo {
+        width: 120px;
+        height: auto;
+        margin-top: 11%;
+    }
+    .menuContainer {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .navtxt {
+        margin-left: 10%;
+        font-size: 14px;
+        font-family: Lato;
+        letter-spacing: 0.03em;
+        color: white;
+        cursor: pointer;
+        text-align: right;
+    }
 }
