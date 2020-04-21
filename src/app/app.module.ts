@@ -7,6 +7,8 @@ import { SinglePageComponent } from './layouts/single-page/single-page.component
 import { PlansModule } from './pages/single-page-pages/plans/plans.module';
 import { ChooseUsComponent } from './pages/single-page-pages/choose-us/choose-us.component';
 import { ContactComponent } from './pages/single-page-pages/contact/contact.component';
+import { FooterComponent } from './shared/footer/footer.component';
+import { NavbarComponent } from './shared/navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +16,8 @@ import { ContactComponent } from './pages/single-page-pages/contact/contact.comp
     SinglePageComponent,
     ChooseUsComponent,
     ContactComponent,
+    FooterComponent,
+    NavbarComponent,
   ],
   imports: [
     BrowserModule,

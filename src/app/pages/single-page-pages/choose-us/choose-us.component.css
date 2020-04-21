@@ -56,10 +56,11 @@
 }
 
 .text-image{
-    width: 100%;
+    width: 75%;
+    margin-left: 12.5%;
     display: flex;
     margin-top: 25vh;
-    margin-bottom: 25vh;
+    margin-bottom: 15vh;
 }
 
 .text-image-flex{
@@ -75,7 +76,6 @@
 }
 
 .text-image-description-container{
-    margin-left: 42%;
     text-align: left;
     margin-right: 4%;
 }
@@ -86,11 +86,11 @@
     font-size: 54px;
     color: rgb(100, 99, 99);
     letter-spacing: 0.03em;
-    margin-left: 42%;
 }
 
 .text-image-flex img{
-    width: 70%;
+    width: 85%;
     height: auto;
-    margin-left: 10%;
+    margin-left: 15%;
+    margin-top: 7vh;
 }

@@ -1,6 +1,7 @@
 <div class="mainpage">
     <div class="headerSection">
-        <div class="flex-div">
+        <app-navbar></app-navbar>
+        <!-- <div class="flex-div">
             <div class="left-col">
                 <img src="../../../assets/img/logo_even.png" class="evenLogo" />
             </div>
@@ -8,24 +9,24 @@
                 <div class="menuBtn firstMenuBtn">
                     <p class="navtxt">NOSOTROS</p>
                 </div>
-                <div class="menuBtn">
+                <div class="menuBtn" (click)="scroll(plans)">
                     <p class="navtxt">PLANES</p>
                 </div>
                 <div class="menuBtn">
                     <p class="navtxt">SERVICIOS</p>
                 </div>
-                <div class="menuBtn">
+                <div class="menuBtn" (click)="scroll(contacts)">
                     <p class="navtxt">CONTACTO</p>
                 </div>
             </div>
-        </div>
+        </div> -->
         <div class="intro">
             <div class="introText">
                 <p class="introTitle">Lorem ipsum dolor sit amet consectetur</p>
                 <p class="introDesc">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
                     fugiat
                     nulla pariatur. </p>
-                    <button (click)="clicked()" class="skybtn">
+                    <button class="skybtn">
                         <p class="buttonText">VER PLANES</p>
                     </button>
             </div>
@@ -48,7 +49,20 @@
             <div class="wave-inverse wave3"></div>
             <div class="wave-inverse wave4"></div>
         </section>
-        <app-plans (messageEvent)="receiveMessage($event)" style="z-index: 3; position: relative;"></app-plans>
-        <app-contact style="z-index: 3; position: relative;"></app-contact>
+        <div #plans style="padding-top: 9vh;">
+            <app-plans style="z-index: 3; position: relative;"></app-plans>
+        </div>
+        <div #contacts>
+            <app-contact style="z-index: 3; position: relative;"></app-contact>
+        </div>
+        <section class="waves">
+            <div class="wave wave1"></div>
+            <!-- <div class="wave wave2"></div> -->
+            <div class="wave wave3"></div>
+            <div class="wave wave4"></div>
+        </section>
+    </div>
+    <div class="footer">
+        <app-footer></app-footer>
     </div>
 </div>

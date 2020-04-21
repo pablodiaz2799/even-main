@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
 
 @Component({
   selector: 'app-single-page',
@@ -6,18 +6,19 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./single-page.component.css']
 })
 export class SinglePageComponent implements OnInit {
+  @ViewChild('plans') plans: ElementRef;
 
   constructor() { }
 
   ngOnInit(): void {
   }
 
-  clicked(){
-    alert('NDEHA');
+  scroll(target) {
+    console.log(target);
+    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
 
-  receiveMessage($event) {
-    alert($event);
-  }
+
+
 
 }

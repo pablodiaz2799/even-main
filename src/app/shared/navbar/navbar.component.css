@@ -1,0 +1,45 @@
+.flex-div{
+    display: flex;
+    height: 10vh;
+    width: 75%;
+    margin-left: 12.5%;
+}
+
+.left-col{
+    flex:1;
+    width: 100%;
+}
+
+.right-col{
+    display: flex;
+    flex:1;
+}
+
+.evenLogo{
+    width: 170px;
+    height: auto;
+    margin-top: 2%;
+}
+
+.menuContainer{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+}
+
+/* .menuBtn{    
+    width: 25%;
+    cursor: default;
+    text-align: right;
+} */
+
+.navtxt{
+    margin-left: 10%;
+    font-size: 19px;
+    font-family: Lato;
+    letter-spacing: 0.03em;
+    color: white;
+    cursor: pointer;
+    text-align: right;
+}
