@@ -291,7 +291,7 @@
         text-align: justify;
     }
     
-    .text-image-flex p.text-image-title{
+    .text-image-flex span.text-image-title{
         font-family: Lato;
         font-weight: bold;
         font-size: 42px;
