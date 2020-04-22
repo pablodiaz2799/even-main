@@ -92,7 +92,43 @@
     .evenLogo {
         width: 120px;
         height: auto;
-        margin-top: 11%;
+        margin-top: 5%;
+    }
+    .menuContainer {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .navtxt {
+        margin-left: 10%;
+        font-size: 14px;
+        font-family: Lato;
+        letter-spacing: 0.03em;
+        color: white;
+        cursor: pointer;
+        text-align: right;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .flex-div {
+        display: flex;
+        height: 15vh;
+        width: 75%;
+        margin-left: 12.5%;
+    }
+    .left-col {
+        flex: 1;
+    }
+    .right-col {
+        display: flex;
+        flex: 1;
+    }
+    .evenLogo {
+        width: 120px;
+        height: auto;
+        margin-top: 5%;
     }
     .menuContainer {
         width: 100%;
