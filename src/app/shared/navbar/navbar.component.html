@@ -4,6 +4,7 @@
     </div>
     <div class="right-col">
         <div class="menuContainer">
+            <img #menuIcon class="sidebar-menu-icon" (click)="showMenu()" src="../../../assets/icons/menu.svg" />
             <p class="navtxt">NOSOTROS</p>
             <p class="navtxt">PLANES</p>
             <p class="navtxt">SERVICIOS</p>
@@ -18,3 +19,23 @@
             </div> -->
         </div>
     </div>
+</div>
+<div class="menu-sidebar" #sidebarMenu>
+    <div class="top-menu">
+        <img class="cross-menu" (click)="hideMenu()" src="../../../assets/icons/x.svg" />
+    </div>
+    <div class="bot-menu">
+        <div class="button-container">
+            <p>NOSOTROS</p>
+        </div>
+        <div class="button-container">
+            <p>PLANES</p>
+        </div>
+        <div class="button-container">
+            <p>SERVICIO</p>
+        </div>
+        <div class="button-container">
+            <p>CONTACTO</p>
+        </div>
+    </div>
+</div>

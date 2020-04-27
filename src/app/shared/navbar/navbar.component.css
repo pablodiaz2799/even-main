@@ -37,6 +37,28 @@
         cursor: pointer;
         text-align: right;
     }
+
+    .menu-sidebar {
+        position: absolute;
+        display: none;
+        flex-direction: column;
+        height: 100vh;
+        width: 0;
+        overflow-x: hidden;
+        background-color: white;
+        transition: 0.3s;
+        right: 0px;
+        top: 0px;
+    }
+
+    .sidebar-menu-icon {
+        text-align: right;
+        display: none;
+        width: 20%;
+        height: auto;
+        margin-top: 1%;
+        transition: 0.3s;
+    }
 }
 
 @media (min-width: 1025px) and (max-width: 1280px) {
@@ -72,6 +94,28 @@
         color: white;
         cursor: pointer;
         text-align: right;
+    }
+
+    .menu-sidebar {
+        position: absolute;
+        display: none;
+        flex-direction: column;
+        height: 100vh;
+        width: 0;
+        overflow-x: hidden;
+        background-color: white;
+        transition: 0.3s;
+        right: 0px;
+        top: 0px;
+    }
+
+    .sidebar-menu-icon {
+        text-align: right;
+        display: none;
+        width: 20%;
+        height: auto;
+        margin-top: 1%;
+        transition: 0.3s;
     }
 }
 
@@ -109,6 +153,28 @@
         cursor: pointer;
         text-align: right;
     }
+
+    .menu-sidebar {
+        position: absolute;
+        display: none;
+        flex-direction: column;
+        height: 100vh;
+        width: 0;
+        overflow-x: hidden;
+        background-color: white;
+        transition: 0.3s;
+        right: 0px;
+        top: 0px;
+    }
+
+    .sidebar-menu-icon {
+        text-align: right;
+        display: none;
+        width: 20%;
+        height: auto;
+        margin-top: 1%;
+        transition: 0.3s;
+    }
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
@@ -144,5 +210,101 @@
         color: white;
         cursor: pointer;
         text-align: right;
+    }
+
+    .menu-sidebar {
+        position: absolute;
+        display: none;
+        flex-direction: column;
+        height: 100vh;
+        width: 0;
+        overflow-x: hidden;
+        background-color: white;
+        transition: 0.3s;
+        right: 0px;
+        top: 0px;
+    }
+
+    .sidebar-menu-icon {
+        text-align: right;
+        display: none;
+        width: 20%;
+        height: auto;
+        margin-top: 1%;
+        transition: 0.3s;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .flex-div {
+        display: flex;
+        height: 15vh;
+        width: 98%;
+        margin-left: 1.5%;
+        
+    }
+    .left-col {
+        flex: 1;
+    }
+    .right-col {
+        display: flex;
+        flex: 1;
+    }
+    .evenLogo {
+        width: 85px;
+        height: auto;
+        margin-top: 5%;
+    }
+    .menuContainer {
+        flex: 1;
+        text-align: right;
+    }
+    .navtxt {
+        margin-left: 10%;
+        display: none;
+        visibility: hidden;
+        font-size: 8px;
+        font-family: Lato;
+        letter-spacing: 0.03em;
+        color: white;
+        cursor: pointer;
+        text-align: right;
+    }
+    .menu-sidebar {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        width: 0;
+        overflow-x: hidden;
+        background-color: white;
+        transition: 0.3s;
+        right: 0px;
+        top: 0px;
+    }
+
+    .top-menu{
+        flex:1;
+        text-align: right;
+    }
+    .bot-menu{
+        flex:9;
+    }
+    .sidebar-menu-icon {
+        text-align: right;
+        visibility: visible;
+        width: 20%;
+        height: auto;
+        margin-top: 1%;
+        transition: 0.3s;
+    }
+    .button-container{
+        height: 10%;
+        text-align: center;
+    }
+    .cross-menu{
+        width: 10%;
+        height: auto;
+        margin-top: 1%;
     }
 }

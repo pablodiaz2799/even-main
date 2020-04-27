@@ -1,5 +1,5 @@
 @media (min-width: 1281px) {
-    .contact-form{
+    .contact-form {
         display: flex;
         width: 60%;
         margin-left: 20%;
@@ -7,56 +7,47 @@
         height: 85vh;
         margin-top: 25vh;
     }
-    
-    .form-title{
+    .form-title {
         flex: 2;
         display: flex;
         flex-direction: column;
         text-align: center;
         align-items: center;
     }
-    
-    .title-flex{
+    .title-flex {
         flex: 1;
         text-align: center;
     }
-    
-    .desc-flex{
+    .desc-flex {
         flex: 1;
         text-align: center;
     }
-    
-    .form-fields{
+    .form-fields {
         flex: 1;
         display: flex;
     }
-    
-    .name-flex{
+    .name-flex {
         display: flex;
         text-align: center;
         align-items: center;
         justify-content: center;
         flex: 1;
-        
     }
-    
-    .email-flex{
+    .email-flex {
         flex: 1;
         display: flex;
         text-align: center;
         align-items: center;
         justify-content: center;
     }
-    
-    .phone-flex{
+    .phone-flex {
         flex: 1;
         display: flex;
         text-align: center;
         align-items: center;
         justify-content: center;
     }
-    
-    .flex-input{
+    .flex-input {
         padding-left: 10%;
         background-color: white;
         border-radius: 50px;
@@ -70,16 +61,14 @@
         -moz-box-shadow: 0px 0px 22px -2px rgba(0, 0, 0, 0.75);
         box-shadow: 0px 0px 22px -2px rgba(0, 0, 0, 0.75);
     }
-    
-    .form-message{
+    .form-message {
         flex: 3;
         display: flex;
         text-align: center;
         align-items: center;
         justify-content: center;
     }
-    
-    .message-area{
+    .message-area {
         background-color: white;
         width: 87%;
         height: 86%;
@@ -97,15 +86,13 @@
         -moz-box-shadow: 0px 0px 22px -2px rgba(0, 0, 0, 0.75);
         box-shadow: 0px 0px 22px -2px rgba(0, 0, 0, 0.75);
     }
-    
-    .form-button{
+    .form-button {
         display: flex;
         flex: 1;
         text-align: center;
         align-items: center;
         justify-content: center;
     }
-    
     .button-flex {
         width: 93%;
         height: 50%;
@@ -113,23 +100,20 @@
         background-color: rgb(112, 226, 255);
         cursor: pointer;
     }
-    
     .button-flex p {
         color: white;
         font-family: LatoRegular;
         font-size: 22px;
         letter-spacing: 0.1em;
     }
-    
-    .title-text{
+    .title-text {
         font-family: Lato;
         font-size: 54px;
         font-weight: bold;
         color: white;
         letter-spacing: 0.05em;
     }
-    
-    .title-desc{
+    .title-desc {
         font-family: Lato;
         width: 50%;
         margin-left: 25%;
@@ -138,9 +122,11 @@
         letter-spacing: 0.05em;
     }
 }
+
 /* ------------------------------------------------------------------------- */
+
 @media (min-width: 1025px) and (max-width: 1280px) {
-    .contact-form{
+    .contact-form {
         display: flex;
         width: 80%;
         margin-left: 10%;
@@ -148,56 +134,47 @@
         height: 85vh;
         margin-top: 25vh;
     }
-    
-    .form-title{
+    .form-title {
         flex: 2;
         display: flex;
         flex-direction: column;
         text-align: center;
         align-items: center;
     }
-    
-    .title-flex{
+    .title-flex {
         flex: 1;
         text-align: center;
     }
-    
-    .desc-flex{
+    .desc-flex {
         flex: 1;
         text-align: center;
     }
-    
-    .form-fields{
+    .form-fields {
         flex: 1;
         display: flex;
     }
-    
-    .name-flex{
+    .name-flex {
         display: flex;
         text-align: center;
         align-items: center;
         justify-content: center;
         flex: 1;
-        
     }
-    
-    .email-flex{
+    .email-flex {
         flex: 1;
         display: flex;
         text-align: center;
         align-items: center;
         justify-content: center;
     }
-    
-    .phone-flex{
+    .phone-flex {
         flex: 1;
         display: flex;
         text-align: center;
         align-items: center;
         justify-content: center;
     }
-    
-    .flex-input{
+    .flex-input {
         padding-left: 10%;
         background-color: white;
         border-radius: 50px;
@@ -211,16 +188,14 @@
         -moz-box-shadow: 0px 0px 22px -2px rgba(0, 0, 0, 0.75);
         box-shadow: 0px 0px 22px -2px rgba(0, 0, 0, 0.75);
     }
-    
-    .form-message{
+    .form-message {
         flex: 3;
         display: flex;
         text-align: center;
         align-items: center;
         justify-content: center;
     }
-    
-    .message-area{
+    .message-area {
         background-color: white;
         width: 87%;
         height: 86%;
@@ -238,15 +213,13 @@
         -moz-box-shadow: 0px 0px 22px -2px rgba(0, 0, 0, 0.75);
         box-shadow: 0px 0px 22px -2px rgba(0, 0, 0, 0.75);
     }
-    
-    .form-button{
+    .form-button {
         display: flex;
         flex: 1;
         text-align: center;
         align-items: center;
         justify-content: center;
     }
-    
     .button-flex {
         width: 93%;
         height: 50%;
@@ -254,23 +227,20 @@
         background-color: rgb(112, 226, 255);
         cursor: pointer;
     }
-    
     .button-flex p {
         color: white;
         font-family: LatoRegular;
         font-size: 22px;
         letter-spacing: 0.1em;
     }
-    
-    .title-text{
+    .title-text {
         font-family: Lato;
         font-size: 42px;
         font-weight: bold;
         color: white;
         letter-spacing: 0.05em;
     }
-    
-    .title-desc{
+    .title-desc {
         font-family: Lato;
         width: 50%;
         margin-left: 25%;
@@ -281,7 +251,7 @@
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-    .contact-form{
+    .contact-form {
         display: flex;
         width: 80%;
         margin-left: 10%;
@@ -289,56 +259,47 @@
         height: 85vh;
         margin-top: 25vh;
     }
-    
-    .form-title{
+    .form-title {
         flex: 2;
         display: flex;
         flex-direction: column;
         text-align: center;
         align-items: center;
     }
-    
-    .title-flex{
+    .title-flex {
         flex: 1;
         text-align: center;
     }
-    
-    .desc-flex{
+    .desc-flex {
         flex: 1;
         text-align: center;
     }
-    
-    .form-fields{
+    .form-fields {
         flex: 1;
         display: flex;
     }
-    
-    .name-flex{
+    .name-flex {
         display: flex;
         text-align: center;
         align-items: center;
         justify-content: center;
         flex: 1;
-        
     }
-    
-    .email-flex{
+    .email-flex {
         flex: 1;
         display: flex;
         text-align: center;
         align-items: center;
         justify-content: center;
     }
-    
-    .phone-flex{
+    .phone-flex {
         flex: 1;
         display: flex;
         text-align: center;
         align-items: center;
         justify-content: center;
     }
-    
-    .flex-input{
+    .flex-input {
         padding-left: 10%;
         background-color: white;
         border-radius: 50px;
@@ -352,16 +313,14 @@
         -moz-box-shadow: 0px 0px 22px -2px rgba(0, 0, 0, 0.75);
         box-shadow: 0px 0px 22px -2px rgba(0, 0, 0, 0.75);
     }
-    
-    .form-message{
+    .form-message {
         flex: 3;
         display: flex;
         text-align: center;
         align-items: center;
         justify-content: center;
     }
-    
-    .message-area{
+    .message-area {
         background-color: white;
         width: 87%;
         height: 86%;
@@ -379,15 +338,13 @@
         -moz-box-shadow: 0px 0px 22px -2px rgba(0, 0, 0, 0.75);
         box-shadow: 0px 0px 22px -2px rgba(0, 0, 0, 0.75);
     }
-    
-    .form-button{
+    .form-button {
         display: flex;
         flex: 1;
         text-align: center;
         align-items: center;
         justify-content: center;
     }
-    
     .button-flex {
         width: 93%;
         height: 50%;
@@ -395,23 +352,20 @@
         background-color: rgb(112, 226, 255);
         cursor: pointer;
     }
-    
     .button-flex p {
         color: white;
         font-family: LatoRegular;
         font-size: 22px;
         letter-spacing: 0.1em;
     }
-    
-    .title-text{
+    .title-text {
         font-family: Lato;
         font-size: 42px;
         font-weight: bold;
         color: white;
         letter-spacing: 0.05em;
     }
-    
-    .title-desc{
+    .title-desc {
         font-family: Lato;
         width: 50%;
         margin-left: 25%;
@@ -422,69 +376,60 @@
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
-    .contact-form{
+    .contact-form {
         display: flex;
         width: 80%;
         margin-left: 10%;
         flex-direction: column;
-        height: 85vh;
+        height: 100vh;
         margin-top: 25vh;
     }
-    
-    .form-title{
+    .form-title {
         flex: 2;
         display: flex;
         flex-direction: column;
         text-align: center;
         align-items: center;
     }
-    
-    .title-flex{
+    .title-flex {
         flex: 1;
         text-align: center;
     }
-    
-    .desc-flex{
+    .desc-flex {
         flex: 1;
         text-align: center;
     }
-    
-    .form-fields{
+    .form-fields {
         flex: 1;
         display: flex;
     }
-    
-    .name-flex{
+    .name-flex {
         display: flex;
         text-align: center;
         align-items: center;
         justify-content: center;
         flex: 1;
-        
     }
-    
-    .email-flex{
+    .email-flex {
         flex: 1;
         display: flex;
         text-align: center;
         align-items: center;
         justify-content: center;
     }
-    
-    .phone-flex{
+    .phone-flex {
         flex: 1;
         display: flex;
         text-align: center;
         align-items: center;
         justify-content: center;
     }
-    
-    .flex-input{
+    .flex-input {
         padding-left: 10%;
         background-color: white;
-        border-radius: 50px;
+        border-radius: 25px;
         font-family: LatoRegular;
-        font-size: 18px;
+        font-size: 16px;
         letter-spacing: 0.05em;
         color: gray;
         height: 40%;
@@ -493,16 +438,14 @@
         -moz-box-shadow: 0px 0px 22px -2px rgba(0, 0, 0, 0.75);
         box-shadow: 0px 0px 22px -2px rgba(0, 0, 0, 0.75);
     }
-    
-    .form-message{
+    .form-message {
         flex: 3;
         display: flex;
         text-align: center;
         align-items: center;
         justify-content: center;
     }
-    
-    .message-area{
+    .message-area {
         background-color: white;
         width: 87%;
         height: 86%;
@@ -520,15 +463,13 @@
         -moz-box-shadow: 0px 0px 22px -2px rgba(0, 0, 0, 0.75);
         box-shadow: 0px 0px 22px -2px rgba(0, 0, 0, 0.75);
     }
-    
-    .form-button{
+    .form-button {
         display: flex;
         flex: 1;
         text-align: center;
         align-items: center;
         justify-content: center;
     }
-    
     .button-flex {
         width: 93%;
         height: 50%;
@@ -536,26 +477,160 @@
         background-color: rgb(112, 226, 255);
         cursor: pointer;
     }
-    
     .button-flex p {
         color: white;
         font-family: LatoRegular;
-        font-size: 22px;
+        font-size: 18px;
         letter-spacing: 0.1em;
     }
-    
-    .title-text{
+    .title-text {
         font-family: Lato;
         font-size: 42px;
         font-weight: bold;
         color: white;
         letter-spacing: 0.05em;
     }
-    
-    .title-desc{
+    .title-desc {
         font-family: Lato;
         width: 50%;
         margin-left: 25%;
+        font-size: 18px;
+        color: white;
+        letter-spacing: 0.05em;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .contact-form {
+        display: flex;
+        width: 80%;
+        margin-left: 10%;
+        flex-direction: column;
+        height: 100%;
+        margin-top: 25%;
+        background-color: reds;
+    }
+    .form-title {
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .title-flex {
+        flex: 1;
+        text-align: center;
+    }
+    .desc-flex {
+        margin-top: 10%;
+        flex: 0.8;
+        text-align: center;
+    }
+    .form-fields {
+        margin-top: 10%;
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+    }
+    .name-flex {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        flex: 1;
+        margin-bottom: 7%;
+    }
+    .email-flex {
+        flex: 1;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 7%;
+    }
+    .phone-flex {
+        flex: 1;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 7%;
+    }
+    .flex-input {
+        padding-left: 10%;
+        padding-top: 2.5%;
+        padding-bottom: 2.5%;
+        background-color: white;
+        border-radius: 25px;
+        font-family: LatoRegular;
+        font-size: 16px;
+        letter-spacing: 0.05em;
+        color: gray;
+        height: 40%;
+        width: 82%;
+        -webkit-box-shadow: 0px 0px 22px -2px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 0px 22px -2px rgba(0, 0, 0, 0.75);
+        box-shadow: 0px 0px 22px -2px rgba(0, 0, 0, 0.75);
+    }
+    .form-message {
+        flex: 2;
+        display: flex;
+        text-align: center;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .message-area {
+        margin-bottom: 7%;
+        background-color: white;
+        width: 72%;
+        border-radius: 25px;
+        padding-top: 1%;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-bottom: 40%;
+        resize: none;
+        font-family: LatoRegular;
+        font-size: 16px;
+        letter-spacing: 0.05em;
+        line-height: 1.5em;
+        color: gray;
+        -webkit-box-shadow: 0px 0px 22px -2px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 0px 22px -2px rgba(0, 0, 0, 0.75);
+        box-shadow: 0px 0px 22px -2px rgba(0, 0, 0, 0.75);
+    }
+    .form-button {
+        display: flex;
+        flex: 1;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .button-flex {
+        width: 93%;
+        height: 50%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        border-radius: 50px;
+        background-color: rgb(112, 226, 255);
+        cursor: pointer;
+    }
+    .button-flex p {
+        color: white;
+        font-family: LatoRegular;
+        font-size: 18px;
+        letter-spacing: 0.1em;
+    }
+    .title-text {
+        font-family: Lato;
+        font-size: 42px;
+        font-weight: bold;
+        color: white;
+        letter-spacing: 0.05em;
+    }
+    .title-desc {
+        font-family: Lato;
+        width: 80%;
+        margin-left: 10%;
         font-size: 18px;
         color: white;
         letter-spacing: 0.05em;

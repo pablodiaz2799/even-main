@@ -2,23 +2,19 @@
     .headerSection {
         background: linear-gradient(120deg, rgb(22, 22, 22), rgb(70, 68, 68), rgb(100, 97, 97));
     }
-
     .plans-contact {
         background: linear-gradient(45deg, rgb(54, 54, 54), rgb(98, 98, 98), rgb(124, 124, 124));
         position: relative;
         z-index: 0;
     }
-
     @keyframes gradient {
         0% {
             background-position: 0%
         }
-
         100% {
             background-position: 100%
         }
     }
-
     /* 
     .flex-div{
         display: flex;
@@ -32,7 +28,6 @@
         box-sizing: border-box;
         overflow: hidden;
     }
-
     .inverse-waves {
         position: relative;
         width: 100%;
@@ -40,7 +35,6 @@
         padding-top: 10vh;
         z-index: 0;
     }
-
     section .wave {
         position: absolute;
         bottom: 0px;
@@ -51,7 +45,6 @@
         background: url(../../../assets/backgrounds/wave.png);
         background-size: 1000px 120px;
     }
-
     section .wave-inverse {
         position: absolute;
         z-index: -1;
@@ -63,7 +56,6 @@
         background: url(../../../assets/backgrounds/wave-inverse.png);
         background-size: 1000px 450px;
     }
-
     section .wave.wave1 {
         animation: animate 30s linear infinite;
         z-index: 1000;
@@ -71,7 +63,6 @@
         animation-delay: 0s;
         bottom: 0px;
     }
-
     section .wave.wave2 {
         animation: animate2 15s linear infinite;
         z-index: 999;
@@ -79,7 +70,6 @@
         animation-delay: -5s;
         bottom: 10px;
     }
-
     section .wave.wave3 {
         animation: animate2 30s linear infinite;
         z-index: 998;
@@ -87,7 +77,6 @@
         animation-delay: -2s;
         bottom: 15px;
     }
-
     section .wave.wave4 {
         animation: animate2 15s linear infinite;
         z-index: 997;
@@ -95,55 +84,46 @@
         animation-delay: -5s;
         bottom: 20px;
     }
-
     section .wave-inverse.wave1 {
         animation: animate 30s linear infinite;
         opacity: 1;
         animation-delay: 0s;
         bottom: 0px;
     }
-
     section .wave-inverse.wave2 {
         animation: animate2 15s linear infinite;
         opacity: 0.5;
         animation-delay: -5s;
         bottom: 10px;
     }
-
     section .wave-inverse.wave3 {
         animation: animate2 30s linear infinite;
         opacity: 0.2;
         animation-delay: -2s;
         bottom: 15px;
     }
-
     section .wave-inverse.wave4 {
         animation: animate2 15s linear infinite;
         opacity: 0.7;
         animation-delay: -5s;
         bottom: 20px;
     }
-
     @keyframes animate {
         0% {
             background-position-x: 0px;
         }
-
         100% {
             background-position-x: 1000px;
         }
     }
-
     @keyframes animate2 {
         0% {
             background-position-x: 0px;
         }
-
         100% {
             background-position-x: -1000px;
         }
     }
-
     .intro {
         display: flex;
         width: 100%;
@@ -151,13 +131,11 @@
         width: 75%;
         margin-left: 12.5%;
     }
-
     .introText {
         flex: 1;
         width: 100%;
         box-sizing: border-box;
     }
-
     .introTitle {
         color: white;
         font-size: 48px;
@@ -166,7 +144,6 @@
         margin-top: 24%;
         margin-bottom: 2%;
     }
-
     .introDesc {
         color: white;
         font-size: 18px;
@@ -174,20 +151,17 @@
         letter-spacing: 0.1em;
         margin-bottom: 3%;
     }
-
     .introImgContainer {
         flex: 1;
         margin-left: 2%;
         margin-top: 6vh;
         text-align: right;
     }
-
     .introImg {
         width: 100%;
         box-sizing: border-box;
         height: auto;
     }
-
     .skybtn {
         padding-top: 1%;
         padding-bottom: 1%;
@@ -197,7 +171,6 @@
         background-color: rgb(112, 226, 255);
         cursor: pointer;
     }
-
     .buttonText {
         color: white;
         font-family: RobotoCondensed;
@@ -212,23 +185,19 @@
     .headerSection {
         background: linear-gradient(120deg, rgb(22, 22, 22), rgb(70, 68, 68), rgb(100, 97, 97));
     }
-
     .plans-contact {
         background: linear-gradient(45deg, rgb(54, 54, 54), rgb(98, 98, 98), rgb(124, 124, 124));
         position: relative;
         z-index: 0;
     }
-
     @keyframes gradient {
         0% {
             background-position: 0%
         }
-
         100% {
             background-position: 100%
         }
     }
-
     /* 
     .flex-div{
         display: flex;
@@ -242,7 +211,6 @@
         padding-top: 10vh;
         overflow: hidden;
     }
-
     .inverse-waves {
         position: relative;
         width: 100%;
@@ -250,7 +218,6 @@
         padding-top: 10vh;
         z-index: 0;
     }
-
     section .wave {
         position: absolute;
         bottom: 0px;
@@ -263,7 +230,6 @@
         background-size: 1024px 140px;
         border-image-repeat: repeat-x;
     }
-
     section .wave-inverse {
         position: absolute;
         z-index: -1;
@@ -276,7 +242,6 @@
         background-size: 1024px 450px;
         border-image-repeat: repeat-x;
     }
-
     section .wave.wave1 {
         /* animation: animate 30s linear infinite; */
         /* animation-delay: 0s; */
@@ -285,7 +250,6 @@
         transform: scaleX(-1);
         bottom: 0px;
     }
-
     section .wave.wave2 {
         /* animation: animate2 15s linear infinite;
         animation-delay: -5s; */
@@ -293,7 +257,6 @@
         opacity: 0.5;
         bottom: 10px;
     }
-
     section .wave.wave3 {
         /* animation: animate2 30s linear infinite;
         animation-delay: -2s; */
@@ -302,7 +265,6 @@
         transform: translate(-40px);
         bottom: 15px;
     }
-
     section .wave.wave4 {
         /* animation: animate2 15s linear infinite;
         animation-delay: -5s; */
@@ -312,35 +274,30 @@
         padding-left: 2.5%;
         bottom: 20px;
     }
-
     section .wave-inverse.wave1 {
         opacity: 1;
         transform: scaleX(-1);
         padding-left: 41%;
         bottom: 0px;
     }
-
     section .wave-inverse.wave2 {
         animation: animate2 15s linear infinite;
         opacity: 0.5;
         animation-delay: -5s;
         bottom: 10px;
     }
-
     section .wave-inverse.wave3 {
         animation: animate2 30s linear infinite;
         opacity: 0.2;
         animation-delay: -2s;
         bottom: 15px;
     }
-
     section .wave-inverse.wave4 {
         opacity: 0.7;
         transform: scaleX(-1);
         padding-left: -20%;
         bottom: 20px;
     }
-
     /* @keyframes animate {
         0% {
             background-position-x: 0px;
@@ -362,13 +319,11 @@
         width: 75%;
         margin-left: 12.5%;
     }
-
     .introText {
         flex: 1;
         width: 100%;
         box-sizing: border-box;
     }
-
     .introTitle {
         color: white;
         font-size: 48px;
@@ -377,7 +332,6 @@
         margin-top: 33%;
         margin-bottom: 2%;
     }
-
     .introDesc {
         color: white;
         font-size: 18px;
@@ -385,18 +339,15 @@
         letter-spacing: 0.1em;
         margin-bottom: 3%;
     }
-
     .introImgContainer {
         flex: 1;
         margin-left: 2%;
         margin-top: 6vh;
     }
-
     .introImg {
         width: 500px;
         height: auto;
     }
-
     .skybtn {
         padding-top: 1%;
         padding-bottom: 1%;
@@ -406,7 +357,6 @@
         background-color: rgb(112, 226, 255);
         cursor: pointer;
     }
-
     .buttonText {
         color: white;
         font-family: RobotoCondensed;
@@ -419,23 +369,19 @@
     .headerSection {
         background: linear-gradient(120deg, rgb(22, 22, 22), rgb(70, 68, 68), rgb(100, 97, 97));
     }
-
     .plans-contact {
         background: linear-gradient(45deg, rgb(54, 54, 54), rgb(98, 98, 98), rgb(124, 124, 124));
         position: relative;
         z-index: 0;
     }
-
     @keyframes gradient {
         0% {
             background-position: 0%
         }
-
         100% {
             background-position: 100%
         }
     }
-
     .waves {
         position: relative;
         width: 100%;
@@ -444,7 +390,6 @@
         padding-top: 10vh;
         overflow: hidden;
     }
-
     .inverse-waves {
         position: relative;
         width: 100%;
@@ -452,7 +397,6 @@
         padding-top: 10vh;
         z-index: 0;
     }
-
     section .wave {
         position: absolute;
         bottom: 0px;
@@ -463,7 +407,6 @@
         background: url(../../../assets/backgrounds/wave.png);
         background-size: 99vw 120px;
     }
-
     section .wave-inverse {
         position: absolute;
         z-index: -1;
@@ -475,7 +418,6 @@
         background: url(../../../assets/backgrounds/wave-inverse.png);
         background-size: 99vw 450px;
     }
-
     section .wave.wave1 {
         /* animation: animate 30s linear infinite; */
         /* animation-delay: 0s; */
@@ -484,7 +426,6 @@
         transform: scaleX(-1);
         bottom: 0px;
     }
-
     section .wave.wave2 {
         /* animation: animate2 15s linear infinite;
         animation-delay: -5s; */
@@ -492,7 +433,6 @@
         opacity: 0.5;
         bottom: 10px;
     }
-
     section .wave.wave3 {
         /* animation: animate2 30s linear infinite;
         animation-delay: -2s; */
@@ -501,7 +441,6 @@
         transform: translate(-40px);
         bottom: 15px;
     }
-
     section .wave.wave4 {
         /* animation: animate2 15s linear infinite;
         animation-delay: -5s; */
@@ -511,46 +450,38 @@
         padding-left: 2.5%;
         bottom: 20px;
     }
-
     section .wave-inverse.wave1 {
         opacity: 1;
         transform: scaleX(-1);
         padding-left: 41%;
         bottom: 0px;
     }
-
     section .wave-inverse.wave2 {
         animation: animate2 15s linear infinite;
         opacity: 0.5;
         animation-delay: -5s;
         bottom: 10px;
     }
-
     section .wave-inverse.wave3 {
         animation: animate2 30s linear infinite;
         opacity: 0.2;
         animation-delay: -2s;
         bottom: 15px;
     }
-
     section .wave-inverse.wave4 {
         opacity: 0.7;
         transform: scaleX(-1);
         padding-left: -20%;
         bottom: 20px;
     }
-
     .intro {
         display: flex;
         width: 75%;
         margin-left: 12.5%;
-
     }
-
     .introText {
         flex: 1;
     }
-
     .introTitle {
         color: white;
         font-size: 24px;
@@ -559,7 +490,6 @@
         margin-top: 30%;
         margin-bottom: 2%;
     }
-
     .introDesc {
         color: white;
         font-size: 14px;
@@ -567,18 +497,15 @@
         letter-spacing: 0.1em;
         margin-bottom: 3%;
     }
-
     .introImgContainer {
         flex: 1;
         margin-left: 2%;
         margin-top: 6vh;
     }
-
     .introImg {
         width: 350px;
         height: auto;
     }
-
     .skybtn {
         padding-top: 1%;
         padding-bottom: 1%;
@@ -588,7 +515,6 @@
         background-color: rgb(112, 226, 255);
         cursor: pointer;
     }
-
     .buttonText {
         color: white;
         font-family: RobotoCondensed;
@@ -601,23 +527,19 @@
     .headerSection {
         background: linear-gradient(120deg, rgb(22, 22, 22), rgb(70, 68, 68), rgb(100, 97, 97));
     }
-
     .plans-contact {
         background: linear-gradient(45deg, rgb(54, 54, 54), rgb(98, 98, 98), rgb(124, 124, 124));
         position: relative;
         z-index: 0;
     }
-
     @keyframes gradient {
         0% {
             background-position: 0%
         }
-
         100% {
             background-position: 100%
         }
     }
-
     .waves {
         position: relative;
         width: 100%;
@@ -626,7 +548,6 @@
         padding-top: 10vh;
         overflow: hidden;
     }
-
     .inverse-waves {
         position: relative;
         width: 100%;
@@ -634,7 +555,6 @@
         padding-top: 10vh;
         z-index: 0;
     }
-
     section .wave {
         position: absolute;
         bottom: 0px;
@@ -645,7 +565,6 @@
         background: url(../../../assets/backgrounds/wave.png);
         background-size: 99vw 120px;
     }
-
     section .wave-inverse {
         position: absolute;
         z-index: -1;
@@ -657,7 +576,6 @@
         background: url(../../../assets/backgrounds/wave-inverse.png);
         background-size: 99vw 450px;
     }
-
     section .wave.wave1 {
         /* animation: animate 30s linear infinite; */
         /* animation-delay: 0s; */
@@ -666,7 +584,6 @@
         transform: scaleX(-1);
         bottom: 0px;
     }
-
     section .wave.wave2 {
         /* animation: animate2 15s linear infinite;
         animation-delay: -5s; */
@@ -674,7 +591,6 @@
         opacity: 0.5;
         bottom: 10px;
     }
-
     section .wave.wave3 {
         /* animation: animate2 30s linear infinite;
         animation-delay: -2s; */
@@ -683,7 +599,6 @@
         transform: translate(-40px);
         bottom: 15px;
     }
-
     section .wave.wave4 {
         /* animation: animate2 15s linear infinite;
         animation-delay: -5s; */
@@ -693,47 +608,38 @@
         padding-left: 2.5%;
         bottom: 20px;
     }
-
     section .wave-inverse.wave1 {
         opacity: 1;
         transform: scaleX(-1);
         padding-left: 41%;
         bottom: 0px;
     }
-
     section .wave-inverse.wave2 {
         animation: animate2 15s linear infinite;
         opacity: 0.5;
         animation-delay: -5s;
         bottom: 10px;
     }
-
     section .wave-inverse.wave3 {
         animation: animate2 30s linear infinite;
         opacity: 0.2;
         animation-delay: -2s;
         bottom: 15px;
     }
-
     section .wave-inverse.wave4 {
         opacity: 0.7;
         transform: scaleX(-1);
         padding-left: -20%;
         bottom: 20px;
     }
-
-
     .intro {
         display: flex;
         width: 75%;
         margin-left: 12.5%;
-
     }
-
     .introText {
         flex: 1;
     }
-
     .introTitle {
         color: white;
         font-size: 24px;
@@ -742,7 +648,6 @@
         margin-top: 40%;
         margin-bottom: 2%;
     }
-
     .introDesc {
         color: white;
         font-size: 14px;
@@ -750,18 +655,15 @@
         letter-spacing: 0.1em;
         margin-bottom: 3%;
     }
-
     .introImgContainer {
         flex: 1;
         margin-left: 2%;
         margin-top: 6vh;
     }
-
     .introImg {
         width: 350px;
         height: auto;
     }
-
     .skybtn {
         padding-top: 1%;
         padding-bottom: 1%;
@@ -771,7 +673,6 @@
         background-color: rgb(112, 226, 255);
         cursor: pointer;
     }
-
     .buttonText {
         color: white;
         font-family: RobotoCondensed;
@@ -784,23 +685,19 @@
     .headerSection {
         background: linear-gradient(120deg, rgb(22, 22, 22), rgb(70, 68, 68), rgb(100, 97, 97));
     }
-
     .plans-contact {
         background: linear-gradient(45deg, rgb(54, 54, 54), rgb(98, 98, 98), rgb(124, 124, 124));
         position: relative;
         z-index: 0;
     }
-
     @keyframes gradient {
         0% {
             background-position: 0%
         }
-
         100% {
             background-position: 100%
         }
     }
-
     .waves {
         position: relative;
         width: 100%;
@@ -809,7 +706,6 @@
         padding-top: 10vh;
         overflow: hidden;
     }
-
     .inverse-waves {
         position: relative;
         width: 100%;
@@ -817,7 +713,6 @@
         padding-top: 10vh;
         z-index: 0;
     }
-
     section .wave {
         position: absolute;
         bottom: 0px;
@@ -828,7 +723,6 @@
         background: url(../../../assets/backgrounds/wave.png);
         background-size: 766px 120px;
     }
-
     section .wave-inverse {
         position: absolute;
         z-index: -1;
@@ -840,7 +734,6 @@
         background: url(../../../assets/backgrounds/wave-inverse.png);
         background-size: 1000px 450px;
     }
-
     section .wave.wave1 {
         /* animation: animate 30s linear infinite; */
         /* animation-delay: 0s; */
@@ -849,7 +742,6 @@
         transform: scaleX(-1);
         bottom: 0px;
     }
-
     section .wave.wave2 {
         /* animation: animate2 15s linear infinite;
         animation-delay: -5s; */
@@ -857,7 +749,6 @@
         opacity: 0.5;
         bottom: 10px;
     }
-
     section .wave.wave3 {
         /* animation: animate2 30s linear infinite;
         animation-delay: -2s; */
@@ -866,7 +757,6 @@
         transform: translate(-40px);
         bottom: 15px;
     }
-
     section .wave.wave4 {
         /* animation: animate2 15s linear infinite;
         animation-delay: -5s; */
@@ -876,47 +766,38 @@
         padding-left: 2.5%;
         bottom: 20px;
     }
-
     section .wave-inverse.wave1 {
         opacity: 1;
         transform: scaleX(-1);
         padding-left: 41%;
         bottom: 0px;
     }
-
     section .wave-inverse.wave2 {
         animation: animate2 15s linear infinite;
         opacity: 0.5;
         animation-delay: -5s;
         bottom: 10px;
     }
-
     section .wave-inverse.wave3 {
         animation: animate2 30s linear infinite;
         opacity: 0.2;
         animation-delay: -2s;
         bottom: 15px;
     }
-
     section .wave-inverse.wave4 {
         opacity: 0.7;
         transform: scaleX(-1);
         padding-left: -20%;
         bottom: 20px;
     }
-
-
     .intro {
         display: flex;
         width: 75%;
         margin-left: 12.5%;
-
     }
-
     .introText {
         flex: 1;
     }
-
     .introTitle {
         color: white;
         font-size: 24px;
@@ -925,7 +806,6 @@
         margin-top: 40%;
         margin-bottom: 2%;
     }
-
     .introDesc {
         color: white;
         font-size: 14px;
@@ -933,18 +813,15 @@
         letter-spacing: 0.1em;
         margin-bottom: 3%;
     }
-
     .introImgContainer {
         flex: 1;
         margin-left: 2%;
         margin-top: 13.5%;
     }
-
     .introImg {
         width: 350px;
         height: auto;
     }
-
     .skybtn {
         padding-top: 1%;
         padding-bottom: 1%;
@@ -954,7 +831,163 @@
         background-color: rgb(112, 226, 255);
         cursor: pointer;
     }
+    .buttonText {
+        color: white;
+        font-family: RobotoCondensed;
+        font-size: 18px;
+        letter-spacing: 0.1em;
+    }
+}
 
+@media (min-width: 320px) and (max-width: 480px) {
+    .headerSection {
+        background: linear-gradient(120deg, rgb(22, 22, 22), rgb(70, 68, 68), rgb(100, 97, 97));
+    }
+    .plans-contact {
+        background: linear-gradient(45deg, rgb(54, 54, 54), rgb(98, 98, 98), rgb(124, 124, 124));
+        position: relative;
+        z-index: 0;
+    }
+    @keyframes gradient {
+        0% {
+            background-position: 0%
+        }
+        100% {
+            background-position: 100%
+        }
+    }
+    .waves {
+        position: relative;
+        width: 100%;
+        height: 30vh;
+        padding-top: 8vh;
+        overflow: hidden;
+    }
+    .inverse-waves {
+        position: relative;
+        width: 100%;
+        box-sizing: border-box;
+        padding-top: 10vh;
+        z-index: 0;
+    }
+    section .wave {
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        width: 100%;
+        box-sizing: border-box;
+        height: 100px;
+        background: url(../../../assets/backgrounds/wave.png);
+        background-size: 100% 100px;
+    }
+    section .wave-inverse {
+        position: absolute;
+        z-index: -1;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        box-sizing: border-box;
+        height: 450px;
+        background: url(../../../assets/backgrounds/wave-inverse.png);
+        background-size: 100% 450px;
+    }
+    section .wave.wave1 {
+        /* animation: animate 30s linear infinite; */
+        /* animation-delay: 0s; */
+        z-index: 1000;
+        opacity: 1;
+        transform: scaleX(-1);
+        bottom: 0px;
+    }
+    section .wave.wave2 {
+        /* animation: animate2 15s linear infinite;
+        animation-delay: -5s; */
+        z-index: 999;
+        opacity: 0.5;
+        bottom: 5px;
+    }
+    section .wave.wave3 {
+        /* animation: animate2 30s linear infinite;
+        animation-delay: -2s; */
+        z-index: 998;
+        opacity: 0.2;
+        transform: translate(-40px);
+        bottom: 7.5px;
+    }
+    section .wave.wave4 {
+        /* animation: animate2 15s linear infinite;
+        animation-delay: -5s; */
+        z-index: 997;
+        opacity: 0.7;
+        transform: scaleX(-1);
+        padding-left: 2.5%;
+        bottom: 10px;
+    }
+    section .wave-inverse.wave1 {
+        opacity: 1;
+        transform: scaleX(-1);
+        padding-left: 41%;
+        bottom: 0px;
+    }
+    section .wave-inverse.wave2 {
+        animation: animate2 15s linear infinite;
+        opacity: 0.5;
+        animation-delay: -5s;
+        bottom: 10px;
+    }
+    section .wave-inverse.wave3 {
+        animation: animate2 30s linear infinite;
+        opacity: 0.2;
+        animation-delay: -2s;
+        bottom: 15px;
+    }
+    section .wave-inverse.wave4 {
+        opacity: 0.7;
+        transform: scaleX(-1);
+        padding-left: -20%;
+        bottom: 20px;
+    }
+    .intro {
+        display: flex;
+        width: 75%;
+        margin-left: 12.5%;
+    }
+    .introText {
+        flex: 1;
+    }
+    .introTitle {
+        color: white;
+        font-size: 24px;
+        font-family: LatoRegular;
+        letter-spacing: 0.05em;
+        margin-top: 10%;
+        margin-bottom: 2%;
+    }
+    .introDesc {
+        color: white;
+        font-size: 14px;
+        font-family: Lato;
+        letter-spacing: 0.1em;
+        margin-bottom: 3%;
+    }
+    .introImgContainer {
+        flex: 0;
+        /* margin-left: 2%;
+        margin-top: 13.5%; */
+    }
+    .introImg {
+        width: 0px;
+        height: auto;
+    }
+    .skybtn {
+        padding-top: 1%;
+        padding-bottom: 1%;
+        padding-left: 10%;
+        padding-right: 10%;
+        border-radius: 50px;
+        background-color: rgb(112, 226, 255);
+        cursor: pointer;
+    }
     .buttonText {
         color: white;
         font-family: RobotoCondensed;
