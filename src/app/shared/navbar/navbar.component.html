@@ -5,10 +5,10 @@
     <div class="right-col">
         <div class="menuContainer">
             <img #menuIcon class="sidebar-menu-icon" (click)="showMenu()" src="../../../assets/icons/menu.svg" />
-            <p class="navtxt">NOSOTROS</p>
-            <p class="navtxt">PLANES</p>
-            <p class="navtxt">SERVICIOS</p>
-            <p class="navtxt">CONTACTO</p>
+            <p class="navtxt" (click)="itemClicked('nosotros')">NOSOTROS</p>
+            <p class="navtxt" (click)="itemClicked('planes')">PLANES</p>
+            <p class="navtxt" (click)="itemClicked('servicios')">SERVICIOS</p>
+            <p class="navtxt" (click)="itemClicked('contacto')">CONTACTO</p>
             <!-- <div class="menuBtn">
             </div>
             <div class="menuBtn">
@@ -25,16 +25,16 @@
         <img class="cross-menu" (click)="hideMenu()" src="../../../assets/icons/x.svg" />
     </div>
     <div class="bot-menu">
-        <div class="button-container">
+        <div class="button-container" (click)="itemClicked('nosotros')">
             <p>NOSOTROS</p>
         </div>
-        <div class="button-container">
+        <div class="button-container" (click)="itemClicked('planes')">
             <p>PLANES</p>
         </div>
-        <div class="button-container">
+        <div class="button-container" (click)="itemClicked('servicio')">
             <p>SERVICIO</p>
         </div>
-        <div class="button-container">
+        <div class="button-container" (click)="itemClicked('contacto')">
             <p>CONTACTO</p>
         </div>
     </div>

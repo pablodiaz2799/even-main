@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
+import { Component, OnInit, ViewChild, ElementRef, EventEmitter, Output } from '@angular/core';
 
 @Component({
   selector: 'app-navbar',
@@ -9,6 +9,7 @@ export class NavbarComponent implements OnInit {
 
   @ViewChild('sidebarMenu') menu: ElementRef;
   @ViewChild('menuIcon') icon: ElementRef;
+  @Output() someEvent = new EventEmitter();
 
   constructor() { }
 
@@ -21,6 +22,11 @@ export class NavbarComponent implements OnInit {
 
   hideMenu(){
     this.menu.nativeElement.style.width = '0px';
+  }
+
+  itemClicked(val){
+    this.hideMenu();
+    this.someEvent.emit(val);
   }
 
 }

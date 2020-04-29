@@ -1,6 +1,6 @@
 <div class="mainpage">
     <div class="headerSection">
-        <app-navbar></app-navbar>
+        <app-navbar (someEvent)="somefunction($event)"></app-navbar>
         <!-- <div class="flex-div">
             <div class="left-col">
                 <img src="../../../assets/img/logo_even.png" class="evenLogo" />
@@ -9,13 +9,13 @@
                 <div class="menuBtn firstMenuBtn">
                     <p class="navtxt">NOSOTROS</p>
                 </div>
-                <div class="menuBtn" (click)="scroll(plans)">
+                <div class="menuBtn" (click)="scroll(planes)">
                     <p class="navtxt">PLANES</p>
                 </div>
                 <div class="menuBtn">
                     <p class="navtxt">SERVICIOS</p>
                 </div>
-                <div class="menuBtn" (click)="scroll(contacts)">
+                <div class="menuBtn" (click)="scroll(contacto)">
                     <p class="navtxt">CONTACTO</p>
                 </div>
             </div>
@@ -26,7 +26,7 @@
                 <p class="introDesc">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
                     fugiat
                     nulla pariatur. </p>
-                    <button class="skybtn">
+                    <button class="skybtn" (click)="scroll('planes')">
                         <p class="buttonText">VER PLANES</p>
                     </button>
             </div>
@@ -41,7 +41,9 @@
             <div class="wave wave4"></div>
         </section>
     </div>
-    <app-choose-us></app-choose-us>
+    <div #nosotros>
+        <app-choose-us></app-choose-us>
+    </div>
     <div class="plans-contact">
         <section class="inverse-waves" >
             <div class="wave-inverse wave1"></div>
@@ -49,10 +51,10 @@
             <div class="wave-inverse wave3"></div>
             <div class="wave-inverse wave4"></div>
         </section>
-        <div #plans style="padding-top: 3vh;">
+        <div #planes style="padding-top: 3vh;">
             <app-plans style="z-index: 3; position: relative;"></app-plans>
         </div>
-        <div #contacts>
+        <div #contacto>
             <app-contact style="z-index: 3; position: relative;"></app-contact>
         </div>
         <section class="waves">
