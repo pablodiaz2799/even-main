@@ -1,4 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
+
 * {
     margin: 0;
     padding: 0;
@@ -9,25 +10,27 @@
     background: transparent;
 }
 
-@font-face{
+html {
+    scroll-behavior: smooth;
+}
+
+@font-face {
     font-family: RobotoCondensed;
     src: url(../src/assets/fonts/RobotoCondensed/RobotoCondensed-Light.ttf);
 }
 
-@font-face{
+@font-face {
     font-family: Lato;
     src: url(../src/assets/fonts/Lato/Lato-Light.ttf);
 }
 
-@font-face{
+@font-face {
     font-family: Lato;
     font-weight: bold;
     src: url(../src/assets/fonts/Lato/Lato-Bold.ttf);
 }
-@font-face{
+
+@font-face {
     font-family: LatoRegular;
     src: url(../src/assets/fonts/Lato/Lato-Regular.ttf);
 }
-
-
-
