@@ -25,6 +25,7 @@ export class NavbarComponent implements OnInit {
   }
 
   itemClicked(val){
+    console.log('clicked');
     this.hideMenu();
     this.someEvent.emit(val);
   }

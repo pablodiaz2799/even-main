@@ -9,8 +9,4 @@ export const SINGLE_ROUTES: Routes = [
         path: 'planes',
         loadChildren: () => import('../../pages/single-page-pages/plans/plans.module').then(m => m.PlansModule)
     },
-    {
-        path: 'servicios',
-        loadChildren: () => import('../../pages/single-page-pages/our-services/our-services.module').then(m => m.OurServicesModule)
-    },
 ];

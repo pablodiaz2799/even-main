@@ -9,6 +9,7 @@ export class SinglePageComponent implements OnInit {
   @ViewChild('planes') planes: ElementRef;
   @ViewChild('contacto') contacto: ElementRef;
   @ViewChild('nosotros') nosotros: ElementRef;
+  @ViewChild('servicios') servicios: ElementRef;
   constructor() { }
 
   ngOnInit(): void {
@@ -24,6 +25,9 @@ export class SinglePageComponent implements OnInit {
         break;
       case 'contacto':
         this.contacto.nativeElement.scrollIntoView({ behavior: "smooth", block: "start" });
+        break;
+      case 'servicios':
+        this.servicios.nativeElement.scrollIntoView({ behavior: "smooth", block: "start" });
         break;
     }
   }

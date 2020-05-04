@@ -9,6 +9,7 @@ import { ChooseUsComponent } from './pages/single-page-pages/choose-us/choose-us
 import { ContactComponent } from './pages/single-page-pages/contact/contact.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
+import { OurServicesComponent } from './pages/single-page-pages/our-services/our-services.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { NavbarComponent } from './shared/navbar/navbar.component';
     ContactComponent,
     FooterComponent,
     NavbarComponent,
+    OurServicesComponent
   ],
   imports: [
     BrowserModule,
