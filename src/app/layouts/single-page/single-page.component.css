@@ -52,9 +52,9 @@
         left: 0px;
         width: 100%;
         box-sizing: border-box;
-        height: 450px;
-        background: url(../../../assets/backgrounds/wave-inverse.png);
-        background-size: 1000px 450px;
+        height: 460px;
+        background: url(../../../assets/backgrounds/wave-inverse.png) 0 0;
+        background-size: 1000px 460px;
     }
     section .wave.wave1 {
         animation: animate 30s linear infinite;
