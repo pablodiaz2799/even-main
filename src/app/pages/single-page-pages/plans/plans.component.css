@@ -21,6 +21,9 @@
         margin-top: 5%;
     }
     .cards {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
         width: 90%;
         height: 100%;
         margin-left: 5%;
@@ -32,6 +35,7 @@
         box-shadow: 0px 0px 22px -2px rgba(0, 0, 0, 0.75);
     }
     .cards-title {
+        flex: 1;
         font-family: RobotoCondensed;
         font-size: 24px;
         color: rgb(51, 51, 51);
@@ -40,6 +44,7 @@
         padding-top: 10%;
     }
     .price-container {
+        flex: 1;
         width: 100%;
         background-color: rgb(128, 215, 250);
         margin-top: 8%;
@@ -53,6 +58,7 @@
         text-align: center;
     }
     .description-container {
+        flex: 10;
         width: 70%;
         margin-left: 15%;
         margin-top: 8%;
@@ -68,6 +74,8 @@
         margin-bottom: 15%;
     }
     .cards-button {
+        flex: 2;
+        justify-self: flex-end;
         padding-top: 2%;
         padding-bottom: 2%;
         padding-left: 10%;
@@ -195,6 +203,8 @@
         margin-top: 5%;
     }
     .cards {
+        display: flex;
+        flex-direction: column;
         width: 90%;
         height: 100%;
         margin-left: 5%;
@@ -206,6 +216,7 @@
         box-shadow: 0px 0px 22px -2px rgba(0, 0, 0, 0.75);
     }
     .cards-title {
+        flex: 1;
         font-family: RobotoCondensed;
         font-size: 18px;
         color: rgb(51, 51, 51);
@@ -214,6 +225,7 @@
         padding-top: 10%;
     }
     .price-container {
+        flex: 1;
         width: 100%;
         background-color: rgb(128, 215, 250);
         margin-top: 8%;
@@ -227,6 +239,7 @@
         text-align: center;
     }
     .description-container {
+        flex: 10;
         width: 70%;
         margin-left: 15%;
         margin-top: 8%;
@@ -242,6 +255,8 @@
         margin-bottom: 15%;
     }
     .cards-button {
+        flex: 2;
+        justify-self: flex-end;
         padding-top: 2%;
         padding-bottom: 2%;
         padding-left: 8%;
@@ -253,7 +268,7 @@
     .cards-button p {
         color: white;
         font-family: RobotoCondensed;
-        font-size: 18px;
+        font-size: 14px;
         letter-spacing: 0.1em;
     }
 }

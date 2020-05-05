@@ -22,8 +22,8 @@
     }
     .icons {
         margin-top: 10vh;
-        width: 50%;
-        margin-left: 25%;
+        width: 60%;
+        margin-left: 20%;
     }
     .flex-row {
         display: flex;
@@ -42,10 +42,11 @@
         width: 80%;
         margin-left: 10%;
         color: rgb(100, 99, 99);
+        text-align: center;
     }
     .icon-img {
-        width: 40%;
-        margin-left: 30%;
+        width: 50%;
+        margin-left: 25%;
         height: auto;
     }
     .text-image {
@@ -134,8 +135,8 @@
         color: rgb(100, 99, 99);
     }
     .icon-img {
-        width: 40%;
-        margin-left: 30%;
+        width: 50%;
+        margin-left: 25%;
         height: auto;
     }
     .text-image {
@@ -225,8 +226,8 @@
         color: rgb(100, 99, 99);
     }
     .icon-img {
-        width: 40%;
-        margin-left: 30%;
+        width: 50%;
+        margin-left: 25%;
         height: auto;
     }
     .text-image {
@@ -314,8 +315,8 @@
         color: rgb(100, 99, 99);
     }
     .icon-img {
-        width: 40%;
-        margin-left: 30%;
+        width: 50%;
+        margin-left: 25%;
         height: auto;
     }
     .text-image {
@@ -403,8 +404,8 @@
         color: rgb(100, 99, 99);
     }
     .icon-img {
-        width: 40%;
-        margin-left: 30%;
+        width: 50%;
+        margin-left: 25%;
         height: auto;
     }
     .text-image {
@@ -492,8 +493,8 @@
         color: rgb(100, 99, 99);
     }
     .icon-img {
-        width: 40%;
-        margin-left: 30%;
+        width: 50%;
+        margin-left: 25%;
         height: auto;
         margin-top: 10%;
     }
