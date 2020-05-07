@@ -236,6 +236,7 @@
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
+    
     .flex-div {
         display: flex;
         height: 15vh;
@@ -271,25 +272,33 @@
         text-align: right;
     }
     .menu-sidebar {
+        z-index: 2000;
         position: absolute;
         display: flex;
         flex-direction: column;
-        height: 100vh;
-        width: 0;
+        height: 0;
+        width: 100%;
         overflow-x: hidden;
-        background-color: white;
+        background: linear-gradient(120deg, rgb(22, 22, 22), rgb(70, 68, 68), rgb(100, 97, 97));
         transition: 0.3s;
         right: 0px;
         top: 0px;
     }
 
     .top-menu{
-        flex:1;
-        text-align: right;
+        flex:3;
+        text-align: center;
     }
     .bot-menu{
         flex:9;
     }
+
+    .top-menu-img{
+        padding-top: 10%;
+        height: auto;
+        width: 40%;
+    }
+
     .sidebar-menu-icon {
         text-align: right;
         visibility: visible;
@@ -299,9 +308,17 @@
         transition: 0.3s;
     }
     .button-container{
-        height: 10%;
+        height: 15%;
         text-align: center;
     }
+
+    .button-container p{
+        font-size: 18px;
+        font-family: Lato;
+        letter-spacing: 0.03em;
+        color: white;
+    }
+
     .cross-menu{
         width: 10%;
         height: auto;

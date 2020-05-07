@@ -1,4 +1,5 @@
 import { Component, OnInit, ViewChild, ElementRef, EventEmitter, Output } from '@angular/core';
+import { HammerGestureConfig } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-navbar',
@@ -11,23 +12,32 @@ export class NavbarComponent implements OnInit {
   @ViewChild('menuIcon') icon: ElementRef;
   @Output() someEvent = new EventEmitter();
 
-  constructor() { }
+constructor() { }
 
-  ngOnInit(): void {
-  }
+ngOnInit(): void {
+}
 
-  showMenu(){
-    this.menu.nativeElement.style.width = '100%';
-  }
-
-  hideMenu(){
-    this.menu.nativeElement.style.width = '0px';
-  }
-
-  itemClicked(val){
-    console.log('clicked');
+swiperight(event){
+  if(event.direction == 8 || event.direction == 4){
     this.hideMenu();
-    this.someEvent.emit(val);
   }
+}
+
+showMenu(){
+  this.menu.nativeElement.style.height = '100vh';
+  document.body.style.position = 'fixed';
+}
+
+hideMenu(){
+  this.menu.nativeElement.style.height = '0vh';
+  document.body.style.position = 'static';
+}
+
+itemClicked(val){
+  console.log('clicked');
+  this.hideMenu();
+  this.someEvent.emit(val);
+}
+  
 
 }

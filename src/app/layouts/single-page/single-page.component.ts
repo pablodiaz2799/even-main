@@ -32,6 +32,10 @@ export class SinglePageComponent implements OnInit {
     }
   }
 
+  swipe(){
+    alert('asdasd');
+  }
+
   somefunction(data){
     this.scroll(data);
   }

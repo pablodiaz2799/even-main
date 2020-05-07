@@ -42,7 +42,7 @@
         width: 100%;
         box-sizing: border-box;
         height: 120px;
-        background: url(../../../assets/backgrounds/wave.png);
+        background: url(../../../assets/backgrounds/wave.png) 0 0;
         background-size: 1000px 120px;
     }
     section .wave-inverse {
@@ -168,7 +168,7 @@
         padding-left: 10%;
         padding-right: 10%;
         border-radius: 50px;
-        background-color: rgb(112, 226, 255);
+        background-color: #36b2bb;
         cursor: pointer;
     }
     .buttonText {
@@ -225,7 +225,7 @@
         width: 100%;
         box-sizing: border-box;
         height: 15vh;
-        background: url(../../../assets/backgrounds/wave.png);
+        background: url(../../../assets/backgrounds/wave.png) 0 0;
         /* transform: scaleX(-1); */
         background-size: 100% 15vh;
         border-image-repeat: repeat-x;
@@ -238,7 +238,7 @@
         width: 100%;
         box-sizing: border-box;
         height: 450px;
-        background: url(../../../assets/backgrounds/wave-inverse.png);
+        background: url(../../../assets/backgrounds/wave-inverse.png) 0 0;
         background-size: 1024px 450px;
         border-image-repeat: repeat-x;
     }
@@ -354,7 +354,7 @@
         padding-left: 10%;
         padding-right: 10%;
         border-radius: 50px;
-        background-color: rgb(112, 226, 255);
+        background-color: #36b2bb;
         cursor: pointer;
     }
     .buttonText {
@@ -404,7 +404,7 @@
         width: 100%;
         box-sizing: border-box;
         height: 120px;
-        background: url(../../../assets/backgrounds/wave.png);
+        background: url(../../../assets/backgrounds/wave.png) 0 0;
         background-size: 99vw 120px;
     }
     section .wave-inverse {
@@ -415,7 +415,7 @@
         width: 100%;
         box-sizing: border-box;
         height: 450px;
-        background: url(../../../assets/backgrounds/wave-inverse.png);
+        background: url(../../../assets/backgrounds/wave-inverse.png) 0 0;
         background-size: 99vw 450px;
     }
     section .wave.wave1 {
@@ -512,7 +512,7 @@
         padding-left: 10%;
         padding-right: 10%;
         border-radius: 50px;
-        background-color: rgb(112, 226, 255);
+        background-color: #36b2bb;
         cursor: pointer;
     }
     .buttonText {
@@ -562,7 +562,7 @@
         width: 100%;
         box-sizing: border-box;
         height: 120px;
-        background: url(../../../assets/backgrounds/wave.png);
+        background: url(../../../assets/backgrounds/wave.png) 0 0;
         background-size: 99vw 120px;
     }
     section .wave-inverse {
@@ -573,7 +573,7 @@
         width: 100%;
         box-sizing: border-box;
         height: 450px;
-        background: url(../../../assets/backgrounds/wave-inverse.png);
+        background: url(../../../assets/backgrounds/wave-inverse.png) 0 0;
         background-size: 99vw 450px;
     }
     section .wave.wave1 {
@@ -670,7 +670,7 @@
         padding-left: 10%;
         padding-right: 10%;
         border-radius: 50px;
-        background-color: rgb(112, 226, 255);
+        background-color: #36b2bb;
         cursor: pointer;
     }
     .buttonText {
@@ -720,7 +720,7 @@
         width: 100%;
         box-sizing: border-box;
         height: 120px;
-        background: url(../../../assets/backgrounds/wave.png);
+        background: url(../../../assets/backgrounds/wave.png) 0 0;
         background-size: 766px 120px;
     }
     section .wave-inverse {
@@ -731,7 +731,7 @@
         width: 100%;
         box-sizing: border-box;
         height: 450px;
-        background: url(../../../assets/backgrounds/wave-inverse.png);
+        background: url(../../../assets/backgrounds/wave-inverse.png) 0 0;
         background-size: 1000px 450px;
     }
     section .wave.wave1 {
@@ -829,7 +829,7 @@
         padding-left: 10%;
         padding-right: 10%;
         border-radius: 50px;
-        background-color: rgb(112, 226, 255);
+        background-color: #36b2bb;
         cursor: pointer;
     }
     .buttonText {
@@ -878,7 +878,7 @@
         width: 100%;
         box-sizing: border-box;
         height: 100px;
-        background: url(../../../assets/backgrounds/wave.png);
+        background: url(../../../assets/backgrounds/wave.png) 0 0;
         background-size: 100% 100px;
     }
     section .wave-inverse {
@@ -889,7 +889,7 @@
         width: 100%;
         box-sizing: border-box;
         height: 450px;
-        background: url(../../../assets/backgrounds/wave-inverse.png);
+        background: url(../../../assets/backgrounds/wave-inverse.png) 0 0;
         background-size: 100% 450px;
     }
     section .wave.wave1 {
@@ -986,7 +986,7 @@
         padding-left: 10%;
         padding-right: 10%;
         border-radius: 50px;
-        background-color: rgb(112, 226, 255);
+        background-color: #36b2bb;
         cursor: pointer;
     }
     .buttonText {
