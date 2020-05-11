@@ -7,21 +7,24 @@
 </div>
 <div class="icons">
     <div class="flex-row">
-        <div class="row-item">
+        <div class="row-item" #item1 [@cardAnimator]="animationState1" (@cardAnimator.done)="resetAnimationState()"
+            (swipeleft)="startAnimation('fadeOutLeft',1)">
             <img class="icon-img" src="../../../../assets/icons/mobile.png">
             <p>
                 Desarrollamos aplicaciones mobiles utilizando tecnologías de ultima generación, nos enfocamos en
                 concluir nuestro trabajo de una manera eficaz y eficiente.
             </p>
         </div>
-        <div class="row-item">
+        <div class="row-item" #item2 [@cardAnimator]="animationState2" (@cardAnimator.done)="resetAnimationState()"
+            (swipeleft)="startAnimation('fadeOutLeft',2)" (swiperight)="startAnimation('fadeOutRight',2)">
             <img class="icon-img" src="../../../../assets/icons/web.png">
             <p>
                 Aseguramos que sus proyectos web sean cuidadosamente trabajados desde el inicio, logrando una excelente
                 puesta en escena del resultado final.
             </p>
         </div>
-        <div class="row-item">
+        <div class="row-item" #item3 [@cardAnimator]="animationState3" (@cardAnimator.done)="resetAnimationState()"
+            (swipeleft)="startAnimation('fadeOutLeft',3)" (swiperight)="startAnimation('fadeOutRight',3)">
             <img class="icon-img" src="../../../../assets/icons/ui.png">
             <p>
                 Ofrecemos un equipo de diseño enfocado en la creación de interfaces modernas e intuitivas con el fin de
@@ -30,26 +33,37 @@
         </div>
     </div>
     <div class="flex-row">
-        <div class="row-item">
+        <div class="row-item" #item4 [@cardAnimator]="animationState4" (@cardAnimator.done)="resetAnimationState()"
+            (swipeleft)="startAnimation('fadeOutLeft',4)" (swiperight)="startAnimation('fadeOutRight',4)">
             <img class="icon-img" src="../../../../assets/icons/tool.png">
             <p>
                 Contamos con un equipo que llevara a cabo el 100% del mantenimiento de los
                 productos que desarrollamos, garantizando su correcto funcionamiento.
             </p>
         </div>
-        <div class="row-item">
-            <img class="icon-img" src="../../../../assets/icons/thumbs-up.svg">
+        <div class="row-item" #item5 [@cardAnimator]="animationState5" (@cardAnimator.done)="resetAnimationState()"
+            (swipeleft)="startAnimation('fadeOutLeft',5)" (swiperight)="startAnimation('fadeOutRight',5)">
+            <img class="icon-img" src="../../../../assets/icons/speaker.png">
             <p>
                 Transformamos redes sociales en herramientas publicitarias, facilitándole su allegada a los clientes
                 logrando la fidelización de los mismos.
             </p>
         </div>
-        <div class="row-item">
-            <img class="icon-img" src="../../../../assets/icons/rocket.png">
+        <div class="row-item" #item6 [@cardAnimator]="animationState6" (@cardAnimator.done)="resetAnimationState()"
+            (swiperight)="startAnimation('fadeOutRight',6)">
+            <img class="icon-img" src="../../../../assets/icons/brain.png">
             <p>
                 Ofrecemos la creación y ejecución de planes estratégicos de marketing para su marca. Garantizamos el
                 incremento de horizontes para los nuevos emprendedores.
             </p>
         </div>
     </div>
+</div>
+<div class="selector-mobile">
+    <div #dot1 class="dot"></div>
+    <div #dot2 class="dot"></div>
+    <div #dot3 class="dot"></div>
+    <div #dot4 class="dot"></div>
+    <div #dot5 class="dot"></div>
+    <div #dot6 class="dot"></div>
 </div>

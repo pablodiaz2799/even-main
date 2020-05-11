@@ -12,11 +12,20 @@ import { NavbarComponent } from './shared/navbar/navbar.component';
 import { OurServicesComponent } from './pages/single-page-pages/our-services/our-services.component';
 import * as Hammer from 'hammerjs';
   import { HammerGestureConfig, HAMMER_GESTURE_CONFIG } from '@angular/platform-browser';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
   export class HammerConfig extends HammerGestureConfig {
-    overrides = <any>{
-      'swipe': { direction: Hammer.DIRECTION_ALL }
-    };
+    overrides = {
+      pan: {
+          direction: 6
+      },
+      pinch: {
+          enable: false
+      },
+      rotate: {
+          enable: false
+      }
+  };
   }
 
 @NgModule({
@@ -33,7 +42,8 @@ import * as Hammer from 'hammerjs';
     BrowserModule,
     AppRoutingModule,
     PlansModule,
-    HammerModule
+    HammerModule,
+    NgbModule
   ],
   providers: [
     {

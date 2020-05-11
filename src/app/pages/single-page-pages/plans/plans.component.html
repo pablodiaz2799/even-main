@@ -1,8 +1,9 @@
 <div class="plan-flexbox">
     <p class="plan-title">Planes</p>
     <div class="plans">
-        <div class="card-container">
-            <div class="cards">
+        <div #card1 class="card-container">
+            <div class="cards" [@cardAnimator]="animationState1" (@cardAnimator.done)="resetAnimationState()"
+                (swipeleft)="startAnimation('fadeOutLeft',1)" (swiperight)="startAnimation('fadeOutRight',1)">
                 <p class="cards-title">BÁSICO</p>
                 <div class="price-container">
                     <p class="cards-price">100 USD</p>
@@ -15,7 +16,7 @@
                     </p>
                 </div>
                 <div class="button-container">
-                    <button class="cards-button" (click)="sendMessage()">
+                    <button class="cards-button">
                         <p>
                             MÁS INFORMACIÓN
                         </p>
@@ -23,8 +24,9 @@
                 </div>
             </div>
         </div>
-        <div class="card-container card-mid">
-            <div class="cards">
+        <div #card2 class="card-container card-mid">
+            <div class="cards" [@cardAnimator]="animationState2" (@cardAnimator.done)="resetAnimationState()"
+                (swipeleft)="startAnimation('fadeOutLeft',2)" (swiperight)="startAnimation('fadeOutRight',2)">
                 <p class="cards-title">AVANZADO</p>
                 <div class="price-container">
                     <p class="cards-price">250 USD</p>
@@ -43,8 +45,9 @@
                 </div>
             </div>
         </div>
-        <div class="card-container card-right">
-            <div class="cards">
+        <div #card3 class="card-container card-right">
+            <div class="cards" [@cardAnimator]="animationState3" (@cardAnimator.done)="resetAnimationState()"
+                (swipeleft)="startAnimation('fadeOutLeft',3)" (swiperight)="startAnimation('fadeOutRight',3)">
                 <p class="cards-title">PREMIUM</p>
                 <div class="price-container">
                     <p class="cards-price">300 USD</p>
@@ -52,8 +55,8 @@
                 <div class="description-container">
                     <p class="cards-description">
                         Página de su negocio con hasta 5 vistas, ofreciendo información de servicios y contacto, en
-                        conjunto con e-commerce ( tienda virtual con carrito
-                        ), donde podrá comercializar sus productos, integrando métodos de pago como PayPal y
+                        conjunto con e-commerce (tienda con carrito virtual), donde podrá comercializar sus productos, integrando métodos de pago
+                        como PayPal y
                         MercadoPago.
                     </p>
                 </div>
@@ -67,4 +70,81 @@
             </div>
         </div>
     </div>
+    <div class="selector-mobile">
+        <div #dot1 class="dot"></div>
+        <div #dot2 class="dot"></div>
+        <div #dot3 class="dot"></div>
+    </div>
 </div>
+
+<!-- <ngb-carousel showNavigationArrows="false" interval="0" #carousel (swipeleft)="swipeleft(carousel)" (swiperight)="swiperight(carousel)">
+    <ng-template ngbSlide>
+        <div class="cards-mobile">
+            <p class="cards-title">BÁSICO</p>
+            <div class="price-container-mobile">
+                <p class="cards-price-mobile">100 USD</p>
+            </div>
+            <div class="description-container-mobile">
+                <p class="cards-description-mobile">
+                    Página de su negocio SPA (aplicación de una sola página) que brinda información de sus productos
+                    y servicios, además de un medio de contacto a consumidores interesados. Diseño adaptado a todo
+                    tipo de dispositivos.
+                </p>
+            </div>
+            <div class="button-container-mobile">
+                <button class="cards-button-mobile">
+                    <p>
+                        MÁS INFORMACIÓN
+                    </p>
+                </button>
+            </div>
+        </div>
+    </ng-template>
+    <ng-template ngbSlide>
+        <div #card2 class="card-container-mobile-2 card-mid">
+            <div class="cards-mobile">
+                <p class="cards-title">AVANZADO</p>
+                <div class="price-container-mobile">
+                    <p class="cards-price-mobile">250 USD</p>
+                </div>
+                <div class="description-container">
+                    <p class="cards-description">
+                        Página de su negocio con hasta 5 apartados, que brinda información detallada de sus servicios y
+                        productos, junto a medio de contacto de su preferencia a consumidores interesados. Diseño
+                        adaptado a todo tipo de dispositivos.
+                    </p>
+                </div>
+                <div class="button-container-mobile">
+                    <button class="cards-button-mobile">
+                        <p>MÁS INFORMACIÓN</p>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </ng-template>
+    <ng-template ngbSlide>
+        <div #card3 class="card-container-mobile-3 card-right">
+            <div class="cards-mobile">
+                <p class="cards-title-mobile">PREMIUM</p>
+                <div class="price-container-mobile">
+                    <p class="cards-price-mobile">300 USD</p>
+                </div>
+                <div class="description-container-mobile">
+                    <p class="cards-description-mobile">
+                        Página de su negocio con hasta 5 vistas, ofreciendo información de servicios y contacto, en
+                        conjunto con e-commerce ( tienda virtual con carrito
+                        ), donde podrá comercializar sus productos, integrando métodos de pago como PayPal y
+                        MercadoPago.
+                    </p>
+                </div>
+                <div class="button-container-mobile">
+                    <button class="cards-button-mobile">
+                        <p>
+                            MÁS INFORMACIÓN
+                        </p>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </ng-template>
+</ngb-carousel> -->

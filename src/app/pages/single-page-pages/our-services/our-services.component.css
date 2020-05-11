@@ -542,4 +542,19 @@
         margin-left: 15%;
         padding-top: 20vh;
     }
+    .selector-mobile{
+        height: 5vh;
+        width: 80%;
+        margin-left: 10%;
+        display: flex;
+        align-items: center;
+    }
+    .dot{
+        background-color: lightgray;
+        flex: 1;
+        height: 0.5vh;
+        margin-left: 5%;
+        margin-right: 5%;
+        transition: 1s;
+    }
 }
