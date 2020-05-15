@@ -11,10 +11,12 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
 import { OurServicesComponent } from './pages/single-page-pages/our-services/our-services.component';
 import * as Hammer from 'hammerjs';
-  import { HammerGestureConfig, HAMMER_GESTURE_CONFIG } from '@angular/platform-browser';
+import { HammerGestureConfig, HAMMER_GESTURE_CONFIG } from '@angular/platform-browser';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { DetailPageComponent } from './layouts/detail-page/detail-page.component';
+import { AlternateNavbarComponent } from './shared/alternate-navbar/alternate-navbar.component';
 
-  export class HammerConfig extends HammerGestureConfig {
+export class HammerConfig extends HammerGestureConfig {
     overrides = {
       pan: {
           direction: 6
@@ -29,28 +31,33 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
   }
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    SinglePageComponent,
-    ChooseUsComponent,
-    ContactComponent,
-    FooterComponent,
-    NavbarComponent,
-    OurServicesComponent
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    PlansModule,
-    HammerModule,
-    NgbModule
-  ],
-  providers: [
-    {
-      provide: HAMMER_GESTURE_CONFIG,
-      useClass: HammerConfig
-    }
-  ],
-  bootstrap: [AppComponent]
+    declarations: [
+        AppComponent,
+        SinglePageComponent,
+        ChooseUsComponent,
+        ContactComponent,
+        FooterComponent,
+        NavbarComponent,
+        OurServicesComponent,
+        DetailPageComponent,
+        AlternateNavbarComponent
+    ],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        PlansModule,
+        HammerModule,
+        NgbModule
+    ],
+    providers: [
+        {
+            provide: HAMMER_GESTURE_CONFIG,
+            useClass: HammerConfig
+        }
+    ],
+    exports: [
+        FooterComponent
+    ],
+    bootstrap: [AppComponent]
 })
 export class AppModule { }

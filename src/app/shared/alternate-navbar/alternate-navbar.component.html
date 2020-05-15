@@ -1,0 +1,45 @@
+
+<div class="flex-div">
+    <div class="left-col">
+        <img src="../../../assets/img/logo_even_blue.png" class="evenLogo" />
+    </div>
+    <div class="right-col">
+        <div class="menuContainer">
+            <img #menuIcon class="sidebar-menu-icon" (click)="showMenu()" src="../../../assets/icons/menu.svg" />
+            <p class="navtxt" (click)="itemClicked('nosotros')">NOSOTROS</p>
+            <p class="navtxt" (click)="itemClicked('planes')">PLANES</p>
+            <p class="navtxt" (click)="itemClicked('servicios')">SERVICIOS</p>
+            <p class="navtxt" (click)="itemClicked('contacto')">CONTACTO</p>
+            <!-- <div class="menuBtn">
+            </div>
+            <div class="menuBtn">
+            </div>
+            <div class="menuBtn">
+            </div>
+            <div class="menuBtn">
+            </div> -->
+        </div>
+    </div>
+</div>
+<div class="menu-sidebar" #sidebarMenu (swipe)="swiperight($event)">
+    <div class="top-menu">
+        <img class="top-menu-img" src="../../../assets/img/logo_even.png" />
+    </div>
+    <div class="bot-menu">
+        <div class="button-container" (click)="itemClicked('nosotros')">
+            <p>NOSOTROS</p>
+        </div>
+        <div class="button-container" (click)="itemClicked('planes')">
+            <p>PLANES</p>
+        </div>
+        <div class="button-container" (click)="itemClicked('servicios')">
+            <p>SERVICIOS</p>
+        </div>
+        <div class="button-container" (click)="itemClicked('contacto')">
+            <p>CONTACTO</p>
+        </div>
+        <div class="button-container">
+            <img class="cross-menu" (click)="hideMenu()" src="../../../assets/icons/x.svg" />
+        </div>
+    </div>
+</div>

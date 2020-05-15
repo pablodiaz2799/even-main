@@ -25,10 +25,15 @@ export const fadeOutRight = [
 
 export const fadeInLeft = [
     style([{opacity: '0'}, {transform: 'translate3d(-100%, 0, 0)'}]),
-    style([{opacity: '1'},{transform: 'translate3d(0, 0, 0)'}]),
+    style([{opacity: '1'}, {transform: 'translate3d(0, 0, 0)'}]),
 ];
 
 export const fadeInRight = [
     style([{opacity: '0'}, {transform: 'translate3d(100%, 0, 0)'}]),
-    style([{opacity: '1'},{transform: 'translate3d(0, 0, 0)'}]),
+    style([{opacity: '1'}, {transform: 'translate3d(0, 0, 0)'}]),
+];
+
+export const spin = [
+    style({transform: 'rotate(0deg)', offset: 0}),
+    style({transform: 'rotate(180deg)', offset: 1}),
 ];

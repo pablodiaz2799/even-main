@@ -1,0 +1,321 @@
+@media (min-width: 1281px) {
+    .flex-div {
+        display: flex;
+        height: 10vh;
+        width: 75%;
+        margin-left: 12.5%;
+    }
+    .left-col {
+        flex: 1;
+    }
+    .right-col {
+        display: flex;
+        flex: 1;
+    }
+    .evenLogo {
+        width: 170px;
+        height: auto;
+        margin-top: 2%;
+    }
+    .menuContainer {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    /* .menuBtn{
+        width: 25%;
+        cursor: default;
+        text-align: right;
+    } */
+    .navtxt {
+        margin-left: 10%;
+        font-size: 19px;
+        font-family: Lato;
+        letter-spacing: 0.03em;
+        cursor: pointer;
+        text-align: right;
+    }
+
+    .menu-sidebar {
+        position: absolute;
+        display: none;
+        flex-direction: column;
+        height: 100vh;
+        width: 0;
+        overflow-x: hidden;
+        background-color: white;
+        transition: 0.3s;
+        right: 0px;
+        top: 0px;
+    }
+
+    .sidebar-menu-icon {
+        text-align: right;
+        display: none;
+        width: 20%;
+        height: auto;
+        margin-top: 1%;
+        transition: 0.3s;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .flex-div {
+        display: flex;
+        height: 10vh;
+        width: 75%;
+        margin-left: 12.5%;
+    }
+    .left-col {
+        flex: 1;
+    }
+    .right-col {
+        display: flex;
+        flex: 1;
+    }
+    .evenLogo {
+        width: 120px;
+        height: auto;
+        margin-top: 11%;
+    }
+    .menuContainer {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .navtxt {
+        margin-left: 10%;
+        font-size: 14px;
+        font-family: Lato;
+        letter-spacing: 0.03em;
+        cursor: pointer;
+        text-align: right;
+    }
+
+    .menu-sidebar {
+        position: absolute;
+        display: none;
+        flex-direction: column;
+        height: 100vh;
+        width: 0;
+        overflow-x: hidden;
+        background-color: white;
+        transition: 0.3s;
+        right: 0px;
+        top: 0px;
+    }
+
+    .sidebar-menu-icon {
+        text-align: right;
+        display: none;
+        width: 20%;
+        height: auto;
+        margin-top: 1%;
+        transition: 0.3s;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .flex-div {
+        display: flex;
+        height: 10vh;
+        width: 75%;
+        margin-left: 12.5%;
+    }
+    .left-col {
+        flex: 1;
+    }
+    .right-col {
+        display: flex;
+        flex: 1;
+    }
+    .evenLogo {
+        width: 120px;
+        height: auto;
+        margin-top: 5%;
+    }
+    .menuContainer {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .navtxt {
+        margin-left: 10%;
+        font-size: 14px;
+        font-family: Lato;
+        letter-spacing: 0.03em;
+        cursor: pointer;
+        text-align: right;
+    }
+
+    .menu-sidebar {
+        position: absolute;
+        display: none;
+        flex-direction: column;
+        height: 100vh;
+        width: 0;
+        overflow-x: hidden;
+        background-color: white;
+        transition: 0.3s;
+        right: 0px;
+        top: 0px;
+    }
+
+    .sidebar-menu-icon {
+        text-align: right;
+        display: none;
+        width: 20%;
+        height: auto;
+        margin-top: 1%;
+        transition: 0.3s;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .flex-div {
+        display: flex;
+        height: 15vh;
+        width: 75%;
+        margin-left: 12.5%;
+    }
+    .left-col {
+        flex: 1;
+    }
+    .right-col {
+        display: flex;
+        flex: 1;
+    }
+    .evenLogo {
+        width: 120px;
+        height: auto;
+        margin-top: 5%;
+    }
+    .menuContainer {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .navtxt {
+        margin-left: 10%;
+        font-size: 14px;
+        font-family: Lato;
+        letter-spacing: 0.03em;
+        cursor: pointer;
+        text-align: right;
+    }
+
+    .menu-sidebar {
+        position: absolute;
+        display: none;
+        flex-direction: column;
+        height: 100vh;
+        width: 0;
+        overflow-x: hidden;
+        background-color: white;
+        transition: 0.3s;
+        right: 0px;
+        top: 0px;
+    }
+
+    .sidebar-menu-icon {
+        text-align: right;
+        display: none;
+        width: 20%;
+        height: auto;
+        margin-top: 1%;
+        transition: 0.3s;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .flex-div {
+        display: flex;
+        height: 15vh;
+        width: 98%;
+        margin-left: 1.5%;
+
+    }
+    .left-col {
+        flex: 1;
+    }
+    .right-col {
+        display: flex;
+        flex: 1;
+    }
+    .evenLogo {
+        width: 85px;
+        height: auto;
+        margin-top: 5%;
+    }
+    .menuContainer {
+        flex: 1;
+        text-align: right;
+    }
+    .navtxt {
+        margin-left: 10%;
+        display: none;
+        visibility: hidden;
+        font-size: 8px;
+        font-family: Lato;
+        letter-spacing: 0.03em;
+        cursor: pointer;
+        text-align: right;
+    }
+    .menu-sidebar {
+        z-index: 2000;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        height: 0;
+        width: 100%;
+        overflow-x: hidden;
+        background: linear-gradient(120deg, rgb(22, 22, 22), rgb(70, 68, 68), rgb(100, 97, 97));
+        transition: 0.3s;
+        right: 0px;
+        top: 0px;
+    }
+
+    .top-menu{
+        flex:3;
+        text-align: center;
+    }
+    .bot-menu{
+        flex:9;
+    }
+
+    .top-menu-img{
+        padding-top: 10%;
+        height: auto;
+        width: 40%;
+    }
+
+    .sidebar-menu-icon {
+        text-align: right;
+        visibility: visible;
+        width: 20%;
+        height: auto;
+        margin-top: 1%;
+        transition: 0.3s;
+    }
+    .button-container{
+        height: 15%;
+        text-align: center;
+    }
+
+    .button-container p{
+        font-size: 18px;
+        font-family: Lato;
+        letter-spacing: 0.03em;
+    }
+
+    .cross-menu{
+        width: 10%;
+        height: auto;
+        margin-top: 1%;
+    }
+}
