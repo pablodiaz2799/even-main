@@ -1,10 +1,9 @@
 import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
+import {Routes, RouterModule, ExtraOptions} from '@angular/router';
 import { SinglePageComponent } from './layouts/single-page/single-page.component';
 import { SINGLE_ROUTES } from './shared/routes/single-page.routes';
 import {DetailPageComponent} from './layouts/detail-page/detail-page.component';
 import {DETAIL_ROUTES} from './shared/routes/detail-page.routes';
-
 
 const routes: Routes = [
   {
@@ -15,8 +14,15 @@ const routes: Routes = [
   }
 ];
 
+const routerOptions: ExtraOptions = {
+  scrollPositionRestoration: 'enabled',
+  anchorScrolling: 'enabled',
+  onSameUrlNavigation: 'reload',
+  scrollOffset: [0,64],
+};
+
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, routerOptions)],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

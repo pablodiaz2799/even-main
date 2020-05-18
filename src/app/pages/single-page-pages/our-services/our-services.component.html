@@ -8,7 +8,7 @@
 <div class="icons">
     <div class="flex-row">
         <div class="row-item" #item1 [@cardAnimator]="animationState1" (@cardAnimator.done)="resetAnimationState()"
-            (swipeleft)="startAnimation('fadeOutLeft',1)">
+            (swipeleft)="startAnimation('fadeOutLeft',1)" [routerLink]="['/detalle']" [queryParams]="{'scroll':'mobile'}">
             <img class="icon-img" src="../../../../assets/icons/mobile.png">
             <p>
                 Desarrollamos aplicaciones mobiles utilizando tecnologías de ultima generación, nos enfocamos en
@@ -16,7 +16,7 @@
             </p>
         </div>
         <div class="row-item" #item2 [@cardAnimator]="animationState2" (@cardAnimator.done)="resetAnimationState()"
-            (swipeleft)="startAnimation('fadeOutLeft',2)" (swiperight)="startAnimation('fadeOutRight',2)">
+            (swipeleft)="startAnimation('fadeOutLeft',2)" (swiperight)="startAnimation('fadeOutRight',2)" [routerLink]="['/detalle']" [queryParams]="{'scroll':'web'}">
             <img class="icon-img" src="../../../../assets/icons/web.png">
             <p>
                 Aseguramos que sus proyectos web sean cuidadosamente trabajados desde el inicio, logrando una excelente
@@ -24,7 +24,7 @@
             </p>
         </div>
         <div class="row-item" #item3 [@cardAnimator]="animationState3" (@cardAnimator.done)="resetAnimationState()"
-            (swipeleft)="startAnimation('fadeOutLeft',3)" (swiperight)="startAnimation('fadeOutRight',3)">
+            (swipeleft)="startAnimation('fadeOutLeft',3)" (swiperight)="startAnimation('fadeOutRight',3)" [routerLink]="['/detalle']" [queryParams]="{'scroll':'ui'}">
             <img class="icon-img" src="../../../../assets/icons/ui.png">
             <p>
                 Ofrecemos un equipo de diseño enfocado en la creación de interfaces modernas e intuitivas con el fin de
@@ -34,7 +34,7 @@
     </div>
     <div class="flex-row">
         <div class="row-item" #item4 [@cardAnimator]="animationState4" (@cardAnimator.done)="resetAnimationState()"
-            (swipeleft)="startAnimation('fadeOutLeft',4)" (swiperight)="startAnimation('fadeOutRight',4)">
+            (swipeleft)="startAnimation('fadeOutLeft',4)" (swiperight)="startAnimation('fadeOutRight',4)" [routerLink]="['/detalle']" [queryParams]="{'scroll':'support'}">
             <img class="icon-img" src="../../../../assets/icons/tool.png">
             <p>
                 Contamos con un equipo que llevara a cabo el 100% del mantenimiento de los
@@ -42,7 +42,7 @@
             </p>
         </div>
         <div class="row-item" #item5 [@cardAnimator]="animationState5" (@cardAnimator.done)="resetAnimationState()"
-            (swipeleft)="startAnimation('fadeOutLeft',5)" (swiperight)="startAnimation('fadeOutRight',5)">
+            (swipeleft)="startAnimation('fadeOutLeft',5)" (swiperight)="startAnimation('fadeOutRight',5)" [routerLink]="['/detalle']" [queryParams]="{'scroll':'community'}">
             <img class="icon-img" src="../../../../assets/icons/speaker.png">
             <p>
                 Transformamos redes sociales en herramientas publicitarias, facilitándole su allegada a los clientes
@@ -50,7 +50,7 @@
             </p>
         </div>
         <div class="row-item" #item6 [@cardAnimator]="animationState6" (@cardAnimator.done)="resetAnimationState()"
-            (swiperight)="startAnimation('fadeOutRight',6)">
+            (swiperight)="startAnimation('fadeOutRight',6)" [routerLink]="['/detalle']" [queryParams]="{'scroll':'marketing'}">
             <img class="icon-img" src="../../../../assets/icons/brain.png">
             <p>
                 Ofrecemos la creación y ejecución de planes estratégicos de marketing para su marca. Garantizamos el

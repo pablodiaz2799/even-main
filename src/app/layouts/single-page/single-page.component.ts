@@ -18,16 +18,16 @@ export class SinglePageComponent implements OnInit {
   scroll(target) {
     switch(target){
       case 'planes':
-        this.planes.nativeElement.scrollIntoView({ behavior: "smooth", block: "start" });
+        this.planes.nativeElement.scrollIntoView({ behavior: "smooth", block: "center" });
         break;
       case 'nosotros':
-        this.nosotros.nativeElement.scrollIntoView({ behavior: "smooth", block: "start" });
+        this.nosotros.nativeElement.scrollIntoView({ behavior: "smooth", block: "center" });
         break;
       case 'contacto':
-        this.contacto.nativeElement.scrollIntoView({ behavior: "smooth", block: "start" });
+        this.contacto.nativeElement.scrollIntoView({ behavior: "smooth", block: "center" });
         break;
       case 'servicios':
-        this.servicios.nativeElement.scrollIntoView({ behavior: "smooth", block: "start" });
+        this.servicios.nativeElement.scrollIntoView({ behavior: "smooth", block: "center" });
         break;
     }
   }

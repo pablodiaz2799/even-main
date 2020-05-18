@@ -16,6 +16,7 @@
         width: 170px;
         height: auto;
         margin-top: 2%;
+        cursor: pointer;
     }
     .menuContainer {
         width: 100%;
@@ -78,6 +79,7 @@
         width: 120px;
         height: auto;
         margin-top: 11%;
+        cursor: pointer;
     }
     .menuContainer {
         width: 100%;
@@ -135,6 +137,7 @@
         width: 120px;
         height: auto;
         margin-top: 5%;
+        cursor: pointer;
     }
     .menuContainer {
         width: 100%;
@@ -192,6 +195,7 @@
         width: 120px;
         height: auto;
         margin-top: 5%;
+        cursor: pointer;
     }
     .menuContainer {
         width: 100%;
@@ -251,6 +255,7 @@
         width: 85px;
         height: auto;
         margin-top: 5%;
+        cursor: pointer;
     }
     .menuContainer {
         flex: 1;

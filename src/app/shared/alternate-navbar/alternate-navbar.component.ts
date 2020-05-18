@@ -1,4 +1,6 @@
 import {Component, ElementRef, EventEmitter, OnInit, Output, ViewChild} from '@angular/core';
+import {Router} from "@angular/router";
+import {Location} from "@angular/common";
 
 @Component({
   selector: 'app-alternate-navbar',
@@ -10,7 +12,7 @@ export class AlternateNavbarComponent implements OnInit {
   @ViewChild('menuIcon') icon: ElementRef;
   @Output() someEvent = new EventEmitter();
 
-  constructor() { }
+  constructor(private router: Router, private location: Location) { }
 
   ngOnInit(): void {
   }
@@ -38,4 +40,7 @@ export class AlternateNavbarComponent implements OnInit {
   }
 
 
+    goBack() {
+        this.location.back();
+    }
 }

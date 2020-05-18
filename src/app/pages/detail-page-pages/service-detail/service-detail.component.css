@@ -9,7 +9,8 @@
     max-width: 100vw;
     height: 75vh;
     overflow: hidden;
-    margin-top: 2vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
 }
 
 .right-wheel{

@@ -1,6 +1,7 @@
 import { Component, OnInit, ViewChild, ElementRef, HostListener, AfterViewInit } from '@angular/core';
 import { trigger, keyframes, animate, transition } from '@angular/animations';
 import * as kf from '../../../shared/animations/keyframes';
+import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-our-services',
@@ -38,7 +39,7 @@ export class OurServicesComponent implements OnInit, AfterViewInit {
   @ViewChild('dot4') dot4: ElementRef;
   @ViewChild('dot5') dot5: ElementRef;
   @ViewChild('dot6') dot6: ElementRef;
-  constructor() { }
+  constructor(private router: Router) { }
   ngAfterViewInit(): void {
     this.onResize();
     this.dot1.nativeElement.style.backgroundColor = '#36b2bb';
@@ -178,4 +179,5 @@ export class OurServicesComponent implements OnInit, AfterViewInit {
     this.animationState5 = '';
     this.animationState6 = '';
   }
+
 }
