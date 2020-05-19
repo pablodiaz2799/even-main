@@ -67,45 +67,46 @@ export class PlansComponent implements OnInit, AfterViewInit {
   }
 
   startAnimation(state, num) {
-    console.log(state);
-    switch (num) {
-      case 1:
-        if (!this.animationState1 && state === 'fadeOutLeft') {
-          this.animationState1 = state;
-          this.card1.nativeElement.style.display = 'none';
-          this.card2.nativeElement.style.display = 'block';
-          this.animationState2 = 'fadeInRight';
-          this.dot1.nativeElement.style.backgroundColor = 'gray';
-          this.dot2.nativeElement.style.backgroundColor = 'white';
-        }
-        break;
-      case 2:
-        if (!this.animationState2 && state === 'fadeOutLeft') {
-          this.animationState2 = state;
-          this.card2.nativeElement.style.display = 'none';
-          this.card3.nativeElement.style.display = 'block';
-          this.animationState3 = 'fadeInRight';
-          this.dot2.nativeElement.style.backgroundColor = 'gray';
-          this.dot3.nativeElement.style.backgroundColor = 'white';
-        } else if (!this.animationState2 && state === 'fadeOutRight') {
-          this.animationState2 = state;
-          this.card2.nativeElement.style.display = 'none';
-          this.card1.nativeElement.style.display = 'block';
-          this.animationState1 = 'fadeInLeft';
-          this.dot2.nativeElement.style.backgroundColor = 'gray';
-          this.dot1.nativeElement.style.backgroundColor = 'white';
-        }
-        break;
-      case 3:
-        if (!this.animationState3 && state === 'fadeOutRight') {
-          this.animationState3 = state;
-          this.card3.nativeElement.style.display = 'none';
-          this.card2.nativeElement.style.display = 'block';
-          this.animationState2 = 'fadeInLeft';
-          this.dot3.nativeElement.style.backgroundColor = 'gray';
-          this.dot2.nativeElement.style.backgroundColor = 'white';
-        }
-        break;
+    if (window.innerWidth <= 480){
+      switch (num) {
+        case 1:
+          if (!this.animationState1 && state === 'fadeOutLeft') {
+            this.animationState1 = state;
+            this.card1.nativeElement.style.display = 'none';
+            this.card2.nativeElement.style.display = 'block';
+            this.animationState2 = 'fadeInRight';
+            this.dot1.nativeElement.style.backgroundColor = 'gray';
+            this.dot2.nativeElement.style.backgroundColor = 'white';
+          }
+          break;
+        case 2:
+          if (!this.animationState2 && state === 'fadeOutLeft') {
+            this.animationState2 = state;
+            this.card2.nativeElement.style.display = 'none';
+            this.card3.nativeElement.style.display = 'block';
+            this.animationState3 = 'fadeInRight';
+            this.dot2.nativeElement.style.backgroundColor = 'gray';
+            this.dot3.nativeElement.style.backgroundColor = 'white';
+          } else if (!this.animationState2 && state === 'fadeOutRight') {
+            this.animationState2 = state;
+            this.card2.nativeElement.style.display = 'none';
+            this.card1.nativeElement.style.display = 'block';
+            this.animationState1 = 'fadeInLeft';
+            this.dot2.nativeElement.style.backgroundColor = 'gray';
+            this.dot1.nativeElement.style.backgroundColor = 'white';
+          }
+          break;
+        case 3:
+          if (!this.animationState3 && state === 'fadeOutRight') {
+            this.animationState3 = state;
+            this.card3.nativeElement.style.display = 'none';
+            this.card2.nativeElement.style.display = 'block';
+            this.animationState2 = 'fadeInLeft';
+            this.dot3.nativeElement.style.backgroundColor = 'gray';
+            this.dot2.nativeElement.style.backgroundColor = 'white';
+          }
+          break;
+      }
     }
   }
 
