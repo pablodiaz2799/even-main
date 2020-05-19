@@ -4,6 +4,7 @@
         height: 10vh;
         width: 75%;
         margin-left: 12.5%;
+        align-items: center;
     }
     .left-col {
         flex: 1;
@@ -67,6 +68,7 @@
         height: 10vh;
         width: 75%;
         margin-left: 12.5%;
+        align-items: center;
     }
     .left-col {
         flex: 1;
@@ -78,7 +80,6 @@
     .evenLogo {
         width: 120px;
         height: auto;
-        margin-top: 11%;
         cursor: pointer;
     }
     .menuContainer {
@@ -125,6 +126,7 @@
         height: 10vh;
         width: 75%;
         margin-left: 12.5%;
+        align-items: center;
     }
     .left-col {
         flex: 1;
@@ -136,7 +138,6 @@
     .evenLogo {
         width: 120px;
         height: auto;
-        margin-top: 5%;
         cursor: pointer;
     }
     .menuContainer {
@@ -183,6 +184,8 @@
         height: 15vh;
         width: 75%;
         margin-left: 12.5%;
+        align-items: center;
+
     }
     .left-col {
         flex: 1;
@@ -194,7 +197,6 @@
     .evenLogo {
         width: 120px;
         height: auto;
-        margin-top: 5%;
         cursor: pointer;
     }
     .menuContainer {
@@ -316,6 +318,7 @@
         font-size: 18px;
         font-family: Lato;
         letter-spacing: 0.03em;
+        color: white;
     }
 
     .cross-menu{

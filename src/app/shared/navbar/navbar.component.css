@@ -23,11 +23,6 @@
         justify-content: flex-end;
         align-items: center;
     }
-    /* .menuBtn{    
-        width: 25%;
-        cursor: default;
-        text-align: right;
-    } */
     .navtxt {
         margin-left: 10%;
         font-size: 19px;
@@ -67,9 +62,11 @@
         height: 10vh;
         width: 75%;
         margin-left: 12.5%;
+        align-items: center;
     }
     .left-col {
         flex: 1;
+        align-content: center;
     }
     .right-col {
         display: flex;
@@ -78,7 +75,6 @@
     .evenLogo {
         width: 120px;
         height: auto;
-        margin-top: 11%;
     }
     .menuContainer {
         width: 100%;
@@ -125,6 +121,7 @@
         height: 10vh;
         width: 75%;
         margin-left: 12.5%;
+        align-items: center;
     }
     .left-col {
         flex: 1;
@@ -136,7 +133,6 @@
     .evenLogo {
         width: 120px;
         height: auto;
-        margin-top: 5%;
     }
     .menuContainer {
         width: 100%;
@@ -177,12 +173,13 @@
     }
 }
 
-@media (min-width: 481px) and (max-width: 767px) {
+@media (min-width: 700px) and (max-width: 767px) {
     .flex-div {
         display: flex;
         height: 15vh;
         width: 75%;
         margin-left: 12.5%;
+        align-items: center;
     }
     .left-col {
         flex: 1;
@@ -235,7 +232,7 @@
     }
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 699px) {
     
     .flex-div {
         display: flex;
