@@ -227,6 +227,12 @@
 }
 
 @media (max-width: 767px) {
+
+    .flex-section{
+        height: 100vh;
+        margin-bottom: 7vh !important;
+    }
+
     .flex-title{
         font-size: 24px;
     }
@@ -251,9 +257,17 @@
     .subtitle-text{
         font-size: 16px;
     }
+
+    .img-service{
+        margin-top: 10vh;
+    }
 }
 
 @media (min-width: 320px) and (max-width: 766px) {
+    .flex-section{
+        height: 100vh;
+        margin-bottom: 0vh !important;
+    }
     .rows-container{
         margin-top: 0.5vh;
     }
@@ -279,7 +293,7 @@
 
     .left-wheel{
         position: absolute;
-        height: 70%;
+        height: 40%;
         margin-top: 2%;
         left: -250px;
         bottom: -40px;

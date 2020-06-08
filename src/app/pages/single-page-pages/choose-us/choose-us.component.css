@@ -356,7 +356,7 @@
     }
 }
 
-@media (min-width: 481px) and (max-width: 767px) {
+@media (min-width: 661px) and (max-width: 767px) {
     .title-flexbox {
         display: flex;
         width: 100%;
@@ -445,7 +445,7 @@
     }
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 660px) {
     .title-flexbox {
         display: flex;
         width: 100%;

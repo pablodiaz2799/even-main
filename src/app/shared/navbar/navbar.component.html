@@ -6,10 +6,10 @@
     <div class="right-col">
         <div class="menuContainer">
             <img #menuIcon class="sidebar-menu-icon" (click)="showMenu()" src="../../../assets/icons/menu.svg" />
-            <p class="navtxt" (click)="itemClicked('nosotros')">NOSOTROS</p>
-            <p class="navtxt" (click)="itemClicked('planes')">PLANES</p>
+            <p class="navtxt" routerLink="/nosotros">NOSOTROS</p>
+            <p class="navtxt" routerLink="/planes">PLANES</p>
             <p class="navtxt" routerLink="/detalle">SERVICIOS</p>
-            <p class="navtxt" (click)="itemClicked('contacto')">CONTACTO</p>
+            <p class="navtxt" routerLink="/contacto/plataforma">CONTACTO</p>
             <!-- <div class="menuBtn">
             </div>
             <div class="menuBtn">
@@ -32,7 +32,7 @@
         <div class="button-container" (click)="itemClicked('planes')">
             <p>PLANES</p>
         </div>
-        <div class="button-container" (click)="itemClicked('servicios')">
+        <div class="button-container" (click)="itemClicked('detalle')">
             <p>SERVICIOS</p>
         </div>
         <div class="button-container" (click)="itemClicked('contacto')">

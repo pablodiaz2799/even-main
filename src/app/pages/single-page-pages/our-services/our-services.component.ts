@@ -50,7 +50,7 @@ export class OurServicesComponent implements OnInit, AfterViewInit {
 
   @HostListener('window:resize', ['$event'])
   onResize(event?) {
-    if (window.innerWidth <= 480 && window.innerWidth !== this.screenWidth) {
+    if (window.innerWidth <= 660 && window.innerWidth !== this.screenWidth) {
       this.item2.nativeElement.style.display = 'none';
       this.item3.nativeElement.style.display = 'none';
       this.item4.nativeElement.style.display = 'none';
@@ -62,7 +62,7 @@ export class OurServicesComponent implements OnInit, AfterViewInit {
       this.dot4.nativeElement.style.backgroundColor = 'lightgray';
       this.dot5.nativeElement.style.backgroundColor = 'lightgray';
       this.dot6.nativeElement.style.backgroundColor = 'lightgray';
-    } else if (window.innerWidth > 480) {
+    } else if (window.innerWidth > 660) {
       this.item1.nativeElement.style.display = 'block';
       this.item2.nativeElement.style.display = 'block';
       this.item3.nativeElement.style.display = 'block';
@@ -75,7 +75,7 @@ export class OurServicesComponent implements OnInit, AfterViewInit {
   }
 
   startAnimation(state, num) {
-    if (window.innerWidth <= 480){
+    if (window.innerWidth <= 660){
       switch (num) {
         case 1:
           if (!this.animationState1 && state === 'fadeOutLeft') {

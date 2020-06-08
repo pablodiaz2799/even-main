@@ -1,0 +1,334 @@
+.mobile-container{
+    display:none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 100vh;
+    width: 75%;
+    margin-left: 12.5%;
+    margin-top: 3vh;
+}
+
+.title {
+    flex: 1;
+    /* align-self: center; */
+}
+
+.title p {
+    font-family: LatoRegular;
+    font-size: 72px;
+    letter-spacing: 0.05em;
+}
+
+.subtitle {
+    flex: 1;
+}
+
+.subtitle p {
+    font-family: Lato;
+    font-size: 24px;
+    width: 50%;
+}
+
+table {
+    border: none;
+    border-collapse: collapse;
+}
+
+table td {
+    border-left: 3px solid lightgray;
+    vertical-align: middle;
+}
+
+table td:first-child {
+    border-left: none;
+}
+
+.table-container {
+    flex: 8;
+    width: 100%;
+    margin-top: 5vh;
+}
+
+.table {
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    table-layout: fixed;
+    border-radius: 25px;
+    -webkit-box-shadow: 0px 0px 22px -2px rgba(189, 189, 189, 0.75);
+    -moz-box-shadow: 0px 0px 22px -2px rgba(189, 189, 189, 0.75);
+    box-shadow: 0px 0px 22px -2px rgba(189, 189, 189, 0.75);
+}
+
+td p {
+    font-family: LatoRegular;
+    font-size: 20px;
+}
+
+.main {
+    width: 35%;
+    text-align: left;
+    padding-left: 5%;
+    font-family: LatoRegular;
+    font-size: 20px;
+}
+
+.basic {
+    max-width: 20%;
+}
+
+.header-tr {
+    background-color: rgb(49, 48, 48);
+    height: 20%;
+}
+
+.footer-tr {
+    height: 20%;
+}
+
+.top-left {
+    border-top-left-radius: 25px;
+}
+
+.top-right {
+    border-top-right-radius: 25px;
+}
+
+.bot-left {
+    border-bottom-left-radius: 25px;
+}
+
+.bot-right {
+    border-bottom-right-radius: 25px;
+}
+
+.header-tr p {
+    font-family: LatoRegular;
+    font-size: 24px;
+    color: white;
+}
+
+.striped {
+    background-color: rgb(220, 246, 255);
+}
+
+.skybtn {
+    background-color: #14d0f1;
+    border-radius: 25px;
+    width: 60%;
+    margin-top: 3%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    cursor: pointer;
+}
+
+.skybtn p {
+    font-family: RobotoCondensed;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    color: white;
+}
+
+.contact-container {
+    width: 100%;
+    height: 30vh;
+    margin-top: 5vh;
+}
+
+.contact {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 10vh;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #474343;
+    border-radius: 25px;
+}
+
+.contact-text {
+    flex: 3;
+    text-align: center;
+}
+
+.contact-button {
+    flex: 2;
+    height: 35%;
+}
+
+.contact-text p {
+    font-family: LatoRegular;
+    font-size: 32px;
+    color: white;
+}
+
+.contact-btn {
+    width: 80%;
+    margin-left: 10%;
+    height: 100%;
+    border-radius: 25px;
+    background-color: #0dbbd8;
+    cursor: pointer;
+}
+
+.contact-btn p {
+    color: white;
+    font-family: LatoRegular;
+    font-size: 24px;
+}
+
+.contact-btn p {
+    color: white;
+    font-family: LatoRegular;
+    font-size: 24px;
+}
+
+@media (max-width: 1024px) {
+    .contact {
+        width: 70%;
+        margin-left: 15%;
+        align-items: center;
+    }
+    .contact-text p, .contact-button p {
+        font-size: 20px;
+    }
+    .skybtn {
+        width: 82%;
+    }
+    .skybtn p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    td p {
+        font-size: 16px;
+    }
+    .title{
+        align-self: center;
+    }
+    .header-tr p {
+        font-size: 18px;
+    }
+    .main p {
+        font-size: 16px;
+    }
+    .subtitle p {
+        text-align: center;
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+
+@media (max-width: 660px) {
+    .container {
+        display: none;
+    }
+    .mobile-container {
+        display: flex;
+        width: 100%;
+        height: 100vh;
+        flex-direction: column;
+    }
+    .title {
+        flex: 3;
+    }
+    .subtitle {
+        flex: 3;
+    }
+    .subtitle p{
+        font-size: 16px;
+    }
+    .button-row {
+        flex: 2;
+        display: flex;
+    }
+    .flex-row-btn {
+        flex: 1;
+    }
+    .mid{
+        border-left: solid 1px black;
+        border-right: solid 1px black;
+    }
+    .flex-btn{
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        transition: 0.5s;
+    }
+    .flex-btn p{
+        font-family: Lato;
+        font-size: 18px;
+        letter-spacing: 0.05em;
+    }
+    .switch-content {
+        flex: 10;
+        display: flex;
+        background-color: rgb(220, 239, 245);
+    }
+    .content {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    .content-row {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+    }
+    .left{
+        flex: 4;
+        text-align: left;
+
+    }
+    .right{
+        flex:1;
+        text-align: center;
+    }
+
+    .left p{
+        padding-left: 20px;
+    }
+
+    .left p, .right p{
+        font-family: Lato;
+        letter-spacing: 0.05em;
+        font-size: 16px;
+    }
+    .content-button{
+        flex: 2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .content-btn{
+        width: 60%;
+        background-color: #0dbbd8;
+        height: 35%;
+        border-radius: 25px;
+    }
+
+    .content-btn p{
+        font-family: Lato;
+        font-size: 18px;
+        letter-spacing: 0.05em;
+        color: white;
+    }
+
+    .contact{
+        width: 80%;
+        margin-left: 10%;
+        height: 10vh;
+    }
+
+    .contact-text p, .contact-button p {
+        font-size: 13px;
+    }
+}

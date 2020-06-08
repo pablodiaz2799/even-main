@@ -1,0 +1,40 @@
+<div class="flex-container">
+    <div class="flex-title">
+        <p>Cuentanos un poco más sobre tu negocio/proyecto</p>
+    </div>
+    <div class="flex-cards">
+        <div class="card" [formGroup]="form">
+            <div class="card-text">
+                <div class="text-title">
+                    <p>¿A que se dedica? / ¿De que se trata? </p>
+                </div>
+                <div class="text-input-container">
+                    <input type="text" class="text-input" formControlName="about" />
+                </div>
+            </div>
+            <div class="card-check">
+                <div class="check-container">
+                    <input class="checkbox" type="checkbox" name="Cart" id="Cart" value="Cart" formControlName="cart">
+                    <label for="Cart"><p>Necesito un carrito de compras online</p></label><br>
+                </div>
+                <div class="check-container">
+                    <input class="checkbox" type="checkbox" name="Categories" id="Categories" value="Categories" formControlName="categories">
+                    <label for="Categories"><p>Mi negocio/proyecto tiene muchas categorías</p></label><br>
+                </div>
+                <div class="check-container">
+                    <input class="checkbox" type="checkbox" name="Community" id="Community" value="Community" formControlName="community">
+                    <label for="Community"><p>Necesito Community Management</p></label><br>
+                </div>
+                <div class="check-container">
+                    <input class="checkbox" type="checkbox" name="Logo" id="Logo" value="Logo" formControlName="logo">
+                    <label for="Logo"><p>Necesito un logo para mi marca</p></label><br>
+                </div>
+            </div>
+            <div class="card-button">
+                <button class="card-btn" (click)="submit()" [disabled]="form.invalid">
+                    <p>Siguiente</p>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>

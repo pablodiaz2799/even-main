@@ -4,6 +4,8 @@ import { SinglePageComponent } from './layouts/single-page/single-page.component
 import { SINGLE_ROUTES } from './shared/routes/single-page.routes';
 import {DetailPageComponent} from './layouts/detail-page/detail-page.component';
 import {DETAIL_ROUTES} from './shared/routes/detail-page.routes';
+import { ContactPageComponent } from './layouts/contact-page/contact-page.component';
+import { CONTACT_ROUTES } from './shared/routes/contact-page.routes';
 
 const routes: Routes = [
   {
@@ -11,13 +13,15 @@ const routes: Routes = [
   },
   {
     path: '', component: DetailPageComponent, data: {title: 'detail page views'}, children: DETAIL_ROUTES
+  },
+  {
+    path: '', component: ContactPageComponent, data: {title: 'contact page views'}, children: CONTACT_ROUTES
   }
 ];
 
 const routerOptions: ExtraOptions = {
   scrollPositionRestoration: 'enabled',
   anchorScrolling: 'enabled',
-  onSameUrlNavigation: 'reload',
   scrollOffset: [0,64],
 };
 

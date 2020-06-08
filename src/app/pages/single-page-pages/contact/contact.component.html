@@ -1,4 +1,4 @@
-<div class="contact-form">
+<div class="contact-form" [formGroup]="form">
     <div class="form-title">
         <div class="title-flex">
             <p class="title-text">Contáctanos</p>
@@ -9,20 +9,43 @@
     </div>
     <div class="form-fields">
         <div class="name-flex">
-            <input type="text" class="flex-input" placeholder="Nombre*" />
+            <input type="text" class="flex-input" placeholder="Nombre*" formControlName="name" />
         </div>
         <div class="email-flex">
-            <input type="text" class="flex-input" placeholder="Email*" />
+            <input type="text" class="flex-input" placeholder="Email*" formControlName="email"/>
         </div>
         <div class="phone-flex">
-            <input type="text" class="flex-input" placeholder="Teléfono" />
+            <input type="text" class="flex-input" placeholder="Teléfono" formControlName="tel"/>
+        </div>
+    </div>
+    <div class="form-fields" *ngIf="name.touched && name.invalid || email.touched && email.invalid">
+        <div class="name-flex" *ngIf="name.touched && name.invalid">
+            <div class="alert" *ngIf="name.errors.required">
+                <p>El nombre es un campo requerido</p>
+            </div>
+            <div class="alert" *ngIf="name.errors.pattern">
+                <p>El nombre solo puede contener carcteres alfabéticos</p>
+            </div>
+        </div>
+        <div class="name-flex" *ngIf="email.touched && email.invalid">
+            <div class="alert" *ngIf="email.errors.required">
+                <p>El email es un campo requerido</p>
+            </div>
+            <div class="alert" *ngIf="email.errors.email">
+                <p>El email debe ser válido</p>
+            </div>
         </div>
     </div>
     <div class="form-message">
-        <textarea class="message-area" placeholder="Mensaje*"></textarea>
+        <textarea class="message-area" placeholder="Mensaje*" formControlName="message"></textarea>
+    </div>
+    <div class="form-fields" *ngIf="message.touched && message.invalid">
+        <div class="alert" *ngIf="message.errors.required">
+            <p>El mensaje es un campo requerido</p>
+        </div>
     </div>
     <div class="form-button">
-        <button class="button-flex">
+        <button class="button-flex" (click)="submit()" [disabled]="form.invalid">
             <p>Enviar mensaje</p>
         </button>
     </div>

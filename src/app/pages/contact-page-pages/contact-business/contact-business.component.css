@@ -1,0 +1,224 @@
+.flex-container {
+    display: flex;
+    height: 90vh;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex-title {
+    flex: 1;
+}
+
+.flex-title p {
+    font-family: Lato;
+    font-weight: bold;
+    font-size: 32px;
+    color: #484848;
+}
+
+.flex-cards {
+    flex: 7;
+    display: flex;
+    width: 450px;
+    align-items: center;
+}
+
+.card {
+    flex: 5;
+    text-align: center;
+    background-color: white;
+    border-radius: 25px;
+    -webkit-box-shadow: 0px 0px 22px -2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 22px -2px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 22px -2px rgba(0, 0, 0, 0.75);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 60vh;
+    width: 450px;
+}
+
+.spacer {
+    flex: 1;
+}
+
+.card-button {
+    flex: 1;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-btn {
+    width: 65%;
+    height: 35%;
+    border-radius: 25px;
+    background-color: #00C5E5;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.card-btn:disabled{
+    cursor: not-allowed;
+}
+
+.card-btn:disabled:hover{
+    background-color: #00C5E5;
+    border: none;
+}
+
+.card-btn:disabled:hover p{
+    color: white;
+} 
+
+.card-btn:hover{
+    background-color: white;
+    border: solid 1px #00C5E5;
+}
+
+.card-btn:hover p{
+    color: black;
+} 
+
+.card-btn p {
+    font-family: Lato;
+    font-size: 18px;
+    color: white;
+    transition: 0.5s
+}
+
+.flex-contact {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+}
+
+.card-img-flex {
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-title{
+    flex:1;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.text-title p{
+    font-size: 15px;
+    font-family: LatoRegular;
+}
+
+.text-input-container{
+    flex:1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-input{
+    width: 243px;
+    border-bottom: solid 1px #00C5E5;
+    font-family: Lato;
+}
+
+.card-check{
+    flex: 1;
+    width: 330px;
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.check-container{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.checkbox{
+    margin-right: 5px;
+}
+
+.contact-button {
+    flex: 2;
+}
+
+.contact-btn {
+    width: 80%;
+    border-radius: 25px;
+    margin-left: 10%;
+    height: 90%;
+    background-color: #00C5E5;
+    cursor: pointer;
+}
+
+.contact-btn p {
+    font-family: Lato;
+    font-size: 18px;
+    color: white;
+}
+
+@media (max-width: 1520px) {
+    .flex-cards {
+        width: 450px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .flex-container {
+        display: flex;
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .flex-title p {
+        font-size: 28px;
+        margin-bottom: 50px;
+    }
+    .flex-cards {
+        flex-direction: column;
+        width: auto;
+    }
+    .card {
+        height: 400px;
+        width: 600px;
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 660px) {
+    .flex-title p {
+        font-size: 24px;
+        text-align: center;
+    }
+    .flex-contact {
+        width: 310px;
+    }
+    .card {
+        flex: 6;
+        width: 310px;
+        margin-bottom: 10px;
+    }
+    .card-check{
+        width: 250px;
+    }
+    .card-check p{
+        font-size: 12px;
+    }
+}

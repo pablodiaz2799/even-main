@@ -42,14 +42,14 @@ export class PlansComponent implements OnInit, AfterViewInit {
 
   @HostListener('window:resize', ['$event'])
   onResize(event?) {
-    if (window.innerWidth <= 480 && window.innerWidth !== this.screenWidth) {
+    if (window.innerWidth <= 660 && window.innerWidth !== this.screenWidth) {
       this.card1.nativeElement.style.display = 'block';
       this.card2.nativeElement.style.display = 'none';
       this.card3.nativeElement.style.display = 'none';
       this.dot1.nativeElement.style.backgroundColor = 'white';
       this.dot2.nativeElement.style.backgroundColor = 'gray';
       this.dot3.nativeElement.style.backgroundColor = 'gray';
-    } else if (window.innerWidth > 480 ){
+    } else if (window.innerWidth > 660 ){
       this.card1.nativeElement.style.display = 'block';
       this.card2.nativeElement.style.display = 'block';
       this.card3.nativeElement.style.display = 'block';
@@ -67,7 +67,7 @@ export class PlansComponent implements OnInit, AfterViewInit {
   }
 
   startAnimation(state, num) {
-    if (window.innerWidth <= 480){
+    if (window.innerWidth <= 660){
       switch (num) {
         case 1:
           if (!this.animationState1 && state === 'fadeOutLeft') {

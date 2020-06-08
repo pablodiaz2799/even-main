@@ -15,21 +15,25 @@ html {
 }
 
 /* width */
+
 ::-webkit-scrollbar {
     width: 10px;
 }
 
 /* Track */
+
 ::-webkit-scrollbar-track {
     background: #f1f1f1;
 }
 
 /* Handle */
+
 ::-webkit-scrollbar-thumb {
     background: #0dbbd8;
 }
 
 /* Handle on hover */
+
 ::-webkit-scrollbar-thumb:hover {
     background: #0dbbd8;
 }
@@ -53,4 +57,8 @@ html {
 @font-face {
     font-family: LatoRegular;
     src: url(../src/assets/fonts/Lato/Lato-Regular.ttf);
+}
+
+p {
+    font-family: Lato;
 }

@@ -181,7 +181,7 @@
 @media (min-width: 481px) and (max-width: 767px) {
     .flex-div {
         display: flex;
-        height: 15vh;
+        height: 10vh;
         width: 75%;
         margin-left: 12.5%;
         align-items: center;
@@ -241,7 +241,7 @@
 
     .flex-div {
         display: flex;
-        height: 15vh;
+        height: 10vh;
         width: 98%;
         margin-left: 1.5%;
 

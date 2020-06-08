@@ -1,6 +1,6 @@
-import {Component, ElementRef, EventEmitter, OnInit, Output, ViewChild} from '@angular/core';
-import {Router} from "@angular/router";
-import {Location} from "@angular/common";
+import { Component, ElementRef, EventEmitter, OnInit, Output, ViewChild } from '@angular/core';
+import { Router } from '@angular/router';
+import { Location } from '@angular/common';
 
 @Component({
   selector: 'app-alternate-navbar',
@@ -17,30 +17,30 @@ export class AlternateNavbarComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  swiperight(event){
-    if(event.direction == 8 || event.direction == 4){
+  swiperight(event) {
+    if (event.direction == 8 || event.direction == 4) {
       this.hideMenu();
     }
   }
 
-  showMenu(){
+  showMenu() {
     this.menu.nativeElement.style.height = '100vh';
     document.body.style.position = 'fixed';
   }
 
-  hideMenu(){
+  hideMenu() {
     this.menu.nativeElement.style.height = '0vh';
     document.body.style.position = 'static';
   }
 
-  itemClicked(val){
+  itemClicked(val) {
+    this.router.navigateByUrl(val);
     console.log('clicked');
     this.hideMenu();
     this.someEvent.emit(val);
   }
 
-
-    goBack() {
-        this.location.back();
-    }
+  goBack() {
+    this.location.back();
+  }
 }

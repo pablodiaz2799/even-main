@@ -1,0 +1,270 @@
+<div class="container">
+    <div class="title">
+        <p>Planes</p>
+    </div>
+    <div class="subtitle">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare mauris eu metus dignissim, non
+            dapibus dui accumsan.</p>
+    </div>
+    <div class="table-container">
+        <table class="table">
+            <tr class="header-tr">
+                <td class="main top-left">
+                    <p>Paquete</p>
+                </td>
+                <td class="basic">
+                    <p>Básico</p>
+                </td>
+                <td class="basic">
+                    <p>Avanzado</p>
+                </td>
+                <td class="basic top-right">
+                    <p>Premium</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="main">
+                    <p>Cantidad de paginas</p>
+                </td>
+                <td>
+                    <p>1</p>
+                </td>
+                <td>
+                    <p>5</p>
+                </td>
+                <td>
+                    <p>5</p>
+                </td>
+            </tr>
+            <tr class="striped">
+                <td class="main">
+                    <p>Diseño responsive</p>
+                </td>
+                <td><img class="checkmark" src="../../../../assets/icons/check.svg" /></td>
+                <td><img class="checkmark" src="../../../../assets/icons/check.svg" /></td>
+                <td><img class="checkmark" src="../../../../assets/icons/check.svg" /></td>
+            </tr>
+            <tr>
+                <td class="main">
+                    <p>Lorem ipsum</p>
+                </td>
+                <td></td>
+                <td><img class="checkmark" src="../../../../assets/icons/check.svg" /></td>
+                <td><img class="checkmark" src="../../../../assets/icons/check.svg" /></td>
+            </tr>
+            <tr class="striped">
+                <td class="main">
+                    <p>Lorem ipsum</p>
+                </td>
+                <td></td>
+                <td><img class="checkmark" src="../../../../assets/icons/check.svg" /></td>
+                <td><img class="checkmark" src="../../../../assets/icons/check.svg" /></td>
+            </tr>
+            <tr>
+                <td class="main">
+                    <p>Lorem ipsum</p>
+                </td>
+                <td></td>
+                <td><img class="checkmark" src="../../../../assets/icons/check.svg" /></td>
+                <td><img class="checkmark" src="../../../../assets/icons/check.svg" /></td>
+            </tr>
+            <tr class="striped">
+                <td class="main">
+                    <p>E - Commerce</p>
+                </td>
+                <td></td>
+                <td></td>
+                <td><img class="checkmark" src="../../../../assets/icons/check.svg" /></td>
+            </tr>
+            <tr class="footer-tr">
+                <td class="main">
+                    <p>Total</p>
+                </td>
+                <td>
+                    <p>100 USD</p>
+                    <button class="skybtn">
+                        <p>OBTENER AHORA</p>
+                    </button>
+                </td>
+                <td>
+                    <p>250 USD</p>
+                    <button class="skybtn">
+                        <p>OBTENER AHORA</p>
+                    </button>
+                </td>
+                <td>
+                    <p>300 USD</p>
+                    <button class="skybtn">
+                        <p>OBTENER AHORA</p>
+                    </button>
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
+<!-- Esto de abajo solo se ve en mobile -->
+<div class="mobile-container">
+    <div class="title">
+        <p>Planes</p>
+    </div>
+    <div class="subtitle">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare mauris eu metus dignissim, non
+            dapibus dui accumsan.</p>
+    </div>
+    <div class="button-row">
+        <div class="flex-row-btn">
+            <button class="flex-btn" #btn1 (click)="selectContent(1)">
+                <p>Básico</p>
+            </button>
+        </div>
+        <div class="flex-row-btn mid">
+            <button class="flex-btn" #btn2 (click)="selectContent(2)">
+                <p>Avanzado</p>
+            </button>
+        </div>
+        <div class="flex-row-btn">
+            <button class="flex-btn" #btn3 (click)="selectContent(3)">
+                <p>Premium</p>
+            </button>
+        </div>
+    </div>
+    <div class="switch-content">
+        <div class="content" #content1>
+            <div class="content-row">
+                <div class="left"><p>Cantidad de paginas</p></div>
+                <div class="right"><p>1</p></div>
+            </div>
+            <div class="content-row">
+                <div class="left"><p>Diseño responsive</p></div>
+                <div class="right">
+                    <img src="../../../../assets/icons/check.svg" />
+                </div>
+            </div>
+            <div class="content-row">
+                <div class="left"><p>Lorem ipsum</p></div>
+                <div class="right"> <p>-</p> </div>
+            </div>
+            <div class="content-row">
+                <div class="left"><p>Lorem ipsum</p></div>
+                <div class="right"> <p>-</p> </div>
+            </div>
+            <div class="content-row">
+                <div class="left"><p>Lorem ipsum</p></div>
+                <div class="right"> <p>-</p> </div>
+            </div>
+            <div class="content-row">
+                <div class="left"><p>E-Commerce</p></div>
+                <div class="right"> <p>-</p> </div>
+            </div>
+            <div class="content-row">
+                <div class="left"><p>Total</p></div>
+                <div class="right">
+                    <p>100 USD</p>
+                </div>
+            </div>
+            <div class="content-button">
+                <button class="content-btn"><p>OBTENER</p></button>
+            </div>
+        </div>
+        <div class="content" #content2>
+            <div class="content-row">
+                <div class="left"><p>Cantidad de paginas</p></div>
+                <div class="right"><p>5</p></div>
+            </div>
+            <div class="content-row">
+                <div class="left"><p>Diseño responsive</p></div>
+                <div class="right">
+                    <img src="../../../../assets/icons/check.svg" />
+                </div>
+            </div>
+            <div class="content-row">
+                <div class="left"><p>Lorem ipsum</p></div>
+                <div class="right">
+                    <img src="../../../../assets/icons/check.svg" />
+                </div>
+            </div>
+            <div class="content-row">
+                <div class="left"><p>Lorem ipsum</p></div>
+                <div class="right">
+                    <img src="../../../../assets/icons/check.svg" />
+                </div>
+            </div>
+            <div class="content-row">
+                <div class="left"><p>Lorem ipsum</p></div>
+                <div class="right">
+                    <img src="../../../../assets/icons/check.svg" />
+                </div>
+            </div>
+            <div class="content-row">
+                <div class="left"><p>E-Commerce</p></div>
+                <div class="right"> <p>-</p> </div>
+            </div>
+            <div class="content-row">
+                <div class="left"><p>Total</p></div>
+                <div class="right">
+                    <p>250 USD</p>
+                </div>
+            </div>
+            <div class="content-button">
+                <button class="content-btn"><p>OBTENER</p></button>
+            </div>
+        </div>
+        <div class="content" #content3>
+            <div class="content-row">
+                <div class="left"><p>Cantidad de paginas</p></div>
+                <div class="right"><p>5</p></div>
+            </div>
+            <div class="content-row">
+                <div class="left"><p>Diseño responsive</p></div>
+                <div class="right">
+                    <img src="../../../../assets/icons/check.svg" />
+                </div>
+            </div>
+            <div class="content-row">
+                <div class="left"><p>Lorem ipsum</p></div>
+                <div class="right">
+                    <img src="../../../../assets/icons/check.svg" />
+                </div>
+            </div>
+            <div class="content-row">
+                <div class="left"><p>Lorem ipsum</p></div>
+                <div class="right">
+                    <img src="../../../../assets/icons/check.svg" />
+                </div>
+            </div>
+            <div class="content-row">
+                <div class="left"><p>Lorem ipsum</p></div>
+                <div class="right">
+                    <img src="../../../../assets/icons/check.svg" />
+                </div>
+            </div>
+            <div class="content-row">
+                <div class="left"><p>E-Commerce</p></div>
+                <div class="right">
+                    <img src="../../../../assets/icons/check.svg" />
+                </div>
+            </div>
+            <div class="content-row">
+                <div class="left"><p>Total</p></div>
+                <div class="right">
+                    <p>300 USD</p>
+                </div>
+            </div>
+            <div class="content-button">
+                <button class="content-btn"><p>OBTENER</p></button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="contact-container">
+    <div class="contact">
+        <div class="contact-text">
+            <p>Precisas un presupuesto a medida?</p>
+        </div>
+        <div class="contact-button">
+            <button class="contact-btn">
+                <p>Contactanos</p>
+            </button>
+        </div>
+    </div>
+</div>

@@ -1,15 +1,15 @@
 
 <div class="flex-div">
     <div class="left-col">
-        <img src="../../../assets/img/alternate-logo.png" class="evenLogo" (click)="goBack()" />
+        <img src="../../../assets/img/alternate-logo.png" class="evenLogo" routerLink="/" />
     </div>
     <div class="right-col">
         <div class="menuContainer">
             <img #menuIcon class="sidebar-menu-icon" (click)="showMenu()" src="../../../assets/icons/menu-black.svg" />
-            <p class="navtxt" (click)="itemClicked('nosotros')">NOSOTROS</p>
-            <p class="navtxt" (click)="itemClicked('planes')">PLANES</p>
-            <p class="navtxt" (click)="itemClicked('servicios')">SERVICIOS</p>
-            <p class="navtxt" (click)="itemClicked('contacto')">CONTACTO</p>
+            <p class="navtxt" routerLink="/nosotros">NOSOTROS</p>
+            <p class="navtxt" routerLink="/planes">PLANES</p>
+            <p class="navtxt" routerLink="/detalle">SERVICIOS</p>
+            <p class="navtxt" routerLink="/contacto/plataforma">CONTACTO</p>
             <!-- <div class="menuBtn">
             </div>
             <div class="menuBtn">
@@ -23,19 +23,19 @@
 </div>
 <div class="menu-sidebar" #sidebarMenu (swipe)="swiperight($event)">
     <div class="top-menu">
-        <img class="top-menu-img" src="../../../assets/img/logo_even.png" />
+        <img class="top-menu-img" src="../../../assets/img/logo_even.png" (click)="itemClicked('home')" />
     </div>
     <div class="bot-menu">
-        <div class="button-container" (click)="itemClicked('nosotros')">
+        <div class="button-container" (click)="itemClicked('/nosotros')">
             <p>NOSOTROS</p>
         </div>
-        <div class="button-container" (click)="itemClicked('planes')">
+        <div class="button-container" (click)="itemClicked('/planes')">
             <p>PLANES</p>
         </div>
-        <div class="button-container" (click)="itemClicked('servicios')">
+        <div class="button-container" (click)="itemClicked('/detalle')">
             <p>SERVICIOS</p>
         </div>
-        <div class="button-container" (click)="itemClicked('contacto')">
+        <div class="button-container" (click)="itemClicked('/contacto/plataforma')">
             <p>CONTACTO</p>
         </div>
         <div class="button-container">

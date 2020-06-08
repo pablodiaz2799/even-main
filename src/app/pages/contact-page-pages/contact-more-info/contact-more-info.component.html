@@ -1,0 +1,41 @@
+<div class="flex-container">
+    <div class="flex-cards" [formGroup]="form" >
+        <div class="card">
+            <div class="card-text">
+                <div class="text-title">
+                    <p>Sitio web / imagen de referencia </p>
+                </div>
+                <div class="text-input-container">
+                    <input type="text" class="text-input" formControlName="example" placeholder="Sitios que te gusten o de tu competencia" />
+                </div>
+            </div>
+            <div class="card-check">
+                <div class="check-container">
+                    <p>Datos personales</p>
+                </div>
+                <div class="spacer"></div>
+                <div class="check-container">
+                    <input type="text" class="text-input" placeholder="Nombre*" formControlName="name" />
+                </div>
+                <div class="check-container">
+                    <input type="text" class="text-input" placeholder="Email*" formControlName="email" />
+                </div>
+                <div class="check-container">
+                    <input type="text" class="text-input" placeholder="Telefono/celular" formControlName="phone" />
+                </div>
+                <div class="check-container"></div>
+                <div class="check-container">
+                    <p>Mensaje adicional</p>
+                </div>
+                <div class="check-container">
+                    <input type="text" class="text-input" formControlName="message" placeholder="Mensaje*"/>
+                </div>
+            </div>
+            <div class="card-button">
+                <button class="card-btn" [disabled]="form.invalid" (click)="submit()">
+                    <p>Enviar</p>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>

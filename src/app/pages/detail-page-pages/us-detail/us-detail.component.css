@@ -1,0 +1,345 @@
+.flex-container {
+    width: 75%;
+    margin-left: 12.5%;
+}
+
+.us {
+    flex: 2;
+    display: flex;
+    height: 90vh;
+    margin-top: 20vh;
+}
+
+.us-title {
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+}
+
+.us-title-text {
+    flex: 1;
+    margin-top: 5vh;
+}
+
+.us-title-text p {
+    font-family: LatoRegular;
+    font-size: 72px;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+}
+
+.us-subtitle-text {
+    flex: 4;
+}
+
+.us-subtitle-text p {
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    color: gray;
+}
+
+.us-img-container {
+    flex: 4;
+}
+
+.us-img {
+    width: 100%;
+    height: auto;
+}
+
+.why {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+    height: 45vh;
+    margin-bottom: 40vh;
+}
+
+.why-title {
+    flex: 1;
+}
+
+.why-title p {
+    font-family: LatoRegular;
+    font-weight: bold;
+    font-size: 54px;
+    letter-spacing: 0.05em;
+}
+
+.cyan-underline {
+    margin-top: 25px;
+    height: 5px;
+    width: 5%;
+    margin-left: 47.5%;
+    background-color: #0dbbd8;
+    border-radius: 50px;
+}
+
+.why-subtitle {
+    flex: 2;
+    text-align: center;
+}
+
+.why-subtitle p {
+    width: 65%;
+    margin-left: 17.5%;
+    font-family: Lato;
+    font-size: 28px;
+    letter-spacing: 0.05em;
+    color: gray;
+}
+
+.how {
+    position: relative;
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    text-align: center;
+    align-content: center;
+}
+
+.how-title {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.how-title-text {
+    flex: 2;
+}
+
+.how-title-text p {
+    font-family: LatoRegular;
+    font-weight: bold;
+    font-size: 54px;
+    letter-spacing: 0.05em;
+}
+
+.how-subtitle-text {
+    flex: 1;
+    text-align: center;
+}
+
+.how-subtitle-text p {
+    margin-top: 5vh;
+    width: 65%;
+    margin-left: 17.5%;
+    font-family: Lato;
+    font-size: 28px;
+    letter-spacing: 0.05em;
+    color: gray;
+}
+
+.how-scroll {
+    flex: 3;
+    display: flex;
+    margin-top: 5vh;
+}
+
+.how-item {
+    flex: 1;
+}
+
+.item-image {
+    width: 90%;
+    height: auto;
+}
+
+.item-text p {
+    margin-top: 5vh;
+    width: 80%;
+    margin-left: 10%;
+    font-family: Lato;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    color: gray;
+}
+
+.right-arrow {
+    position: absolute;
+    width: 4%;
+    right: -4%;
+    bottom: 30%;
+}
+
+.team {
+    flex: 2;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    text-align: center;
+    align-content: center;
+}
+
+.team-item-text p {
+    margin-top: 2vh;
+    width: 80%;
+    margin-left: 10%;
+    font-family: Lato;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    color: gray;
+}
+
+.item-title {
+    margin-top: 2vh;
+    width: 80%;
+    margin-left: 10%;
+    font-family: Lato;
+    font-size: 20px !important;
+    letter-spacing: 0.05em;
+    color: black !important;
+}
+
+.contact-container {
+    width: 100%;
+    height: 30vh;
+    margin-top: 5vh;
+}
+
+.contact {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 10vh;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #474343;
+    border-radius: 25px;
+}
+
+.contact-text {
+    flex: 3;
+    text-align: center;
+}
+
+.contact-button {
+    flex: 2;
+    height: 35%;
+}
+
+.contact-text p {
+    font-family: LatoRegular;
+    font-size: 32px;
+    color: white;
+}
+
+.contact-btn {
+    width: 80%;
+    margin-left: 10%;
+    height: 100%;
+    border-radius: 25px;
+    background-color: #0dbbd8;
+    cursor: pointer;
+}
+
+.contact-btn p {
+    color: white;
+    font-family: LatoRegular;
+    font-size: 24px;
+}
+
+@media (max-width: 1280px) {
+    .us-title-text p {
+        font-size: 56px;
+    }
+    .us-subtitle-text p {
+        font-size: 18px;
+    }
+    .why-subtitle p, .how-subtitle-text p {
+        font-size: 18px;
+    }
+    .item-title {
+        font-size: 16px !important;
+    }
+    .item-text p, .team-item-text p {
+        font-size: 14px;
+    }
+    .contact-text p {
+        font-size: 24px;
+    }
+    .contact-btn p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .contact-text p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 768px) {
+    .contact {
+        width: 75%;
+        margin-left: 12.5%;
+    }
+    .us-title-text {
+        margin-top: 2vh;
+    }
+}
+
+@media (max-width: 480px) {
+    .flex-container {
+        width: 95%;
+        margin-left: 2.5%;
+    }
+    .us {
+        flex-direction: column-reverse;
+        margin-top: 10vh;
+        text-align: center;
+    }
+    .why-subtitle p {
+        width: 80%;
+        margin-left: 10%;
+    }
+    .cyan-underline {
+        width: 10%;
+        margin-left: 45%;
+    }
+    .selector-mobile {
+        height: 5vh;
+        width: 80%;
+        margin-left: 10%;
+        display: flex;
+        align-items: center;
+        background-color: red;
+    }
+    .dot {
+        background-color: lightgray;
+        flex: 1;
+        height: 0.5vh;
+        margin-left: 5%;
+        margin-right: 5%;
+        transition: 1s;
+    }
+    .nuestro-equipo {
+        margin-top: 10vh;
+    }
+    .team {
+        height: 100vh;
+        margin-top: 0vh;
+        margin-bottom: 10vh;
+    }
+    .how {
+        height: 100vh;
+    }
+    .how-title-text p {
+        font-size: 48px;
+    }
+    .item-image {
+        width: 80%;
+        height: auto;
+    }
+
+    .contact-text p, .contact-btn p{
+        font-size: 14px;
+    }
+}

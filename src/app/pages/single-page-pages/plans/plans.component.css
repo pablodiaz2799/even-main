@@ -305,7 +305,7 @@
     }
 }
 
-@media (min-width: 481px) and (max-width: 767px) {
+@media (min-width: 661px) and (max-width: 767px) {
     .plan-flexbox-mobile{
         margin-top: 10vh;
         width: 80%;
@@ -409,7 +409,7 @@
     }
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 660px) {
     .plan-flexbox {
         margin-top: 10vh;
         width: 80%;

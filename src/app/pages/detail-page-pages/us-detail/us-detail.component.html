@@ -1,0 +1,145 @@
+<div class="flex-container">
+    <div class="us">
+        <div class="us-title">
+            <div class="us-title-text">
+                <p>Somos Even</p>
+            </div>
+            <div class="us-subtitle-text">
+                <p>
+                    Una Empresa erradicada en la ciudad de Punta del Este, Uruguay, formada por jóvenes emprendedores
+                    visionarios. Trabajamos en el desarrollo tanto de paginas web como aplicaciones móviles, ofrecemos
+                    estrategias de marketing y contamos con un equipo de diseño enfocado en experiencia de usuario.
+                    Creemos que una visión joven es importante para las empresas de hoy, debido al cambio constante en
+                    torno a tecnologías y costumbres de las personas.
+                </p>
+            </div>
+        </div>
+        <div class="us-img-container">
+            <img class="us-img" src="../../../../assets/img/cell-icons.png" />
+        </div>
+    </div>
+    <div class="why">
+        <div class="why-title">
+            <p>Por qué elegirnos</p>
+            <div class="cyan-underline"></div>
+        </div>
+        <div class="why-subtitle">
+            <p>En Even trabajamos con el fin de brindarle a nuestros clientes la mejor experiencia con nuestros
+                servicios. Brindamos las herramientas necesarias para llevar su negocio a otro nivel, aplicando
+                conocimientos y tecnologías innovadoras en cada área trabajada. Ofrecemos personalización a la hora de
+                definir un paquete, brindando una amplia gama de opciones para lograr que se lleven a cabo sus ideas y
+                proyectos, acorde a su visión.</p>
+        </div>
+    </div>
+    <div class="how">
+        <div class="how-title">
+            <div class="how-title-text">
+                <p>Como trabajamos</p>
+                <div class="cyan-underline"></div>
+            </div>
+            <div class="how-subtitle-text">
+                <p>Nos enfocamos en mantener el orden y buen desarrollo de las actividades para obtener el mayor
+                    provecho de nuestros conocimientos a la hora de aplicarlos en cada uno de nuestros productos y
+                    servicios.</p>
+            </div>
+        </div>
+        <div class="how-scroll">
+            <div class="how-item" #item1 [@cardAnimator]="animationState1" (@cardAnimator.done)="resetAnimationState()"
+                (swipeleft)="startAnimation('fadeOutLeft',1)">
+                <img class="item-image" src="../../../../assets/icons/workflow-1.png" />
+                <div class="item-text">
+                    <p>El mismo nos cuenta que tipo de producto desea, de esta manera nosotros podemos tener una visión
+                        centrada en el objetivo deseado de nuestro cliente.
+                    </p>
+                </div>
+            </div>
+            <div class="how-item" #item2 [@cardAnimator]="animationState2" (@cardAnimator.done)="resetAnimationState()"
+                (swipeleft)="startAnimation('fadeOutLeft',2)" (swiperight)="startAnimation('fadeOutRight',2)">
+                <img class="item-image" src="../../../../assets/icons/workflow-2.png" />
+                <div class="item-text">
+                    <p>El equipo de UI/UX en conjunto con las áreas de marketing y desarrollo, analizaran el diseño del
+                        producto para que la experiencia de usuario sea sumamente agradable.
+                    </p>
+                </div>
+            </div>
+            <div class="how-item" #item3 [@cardAnimator]="animationState3" (@cardAnimator.done)="resetAnimationState()"
+                (swipeleft)="startAnimation('fadeOutLeft',3)" (swiperight)="startAnimation('fadeOutRight',3)">
+                <img class="item-image" src="../../../../assets/icons/workflow-3.png" />
+                <div class="item-text">
+                    <p>Este es llevado a cabo por nuestro equipo de desarrolladores quienes trabajan en cada detalle del
+                        producto para asi lograr una excelente puesta en producción.
+                    </p>
+                </div>
+            </div>
+            <div class="how-item" #item4 [@cardAnimator]="animationState4" (@cardAnimator.done)="resetAnimationState()"
+                (swiperight)="startAnimation('fadeOutRight',4)">
+                <img class="item-image" src="../../../../assets/icons/workflow-4.png" />
+                <div class="item-text">
+                    <p>Debido al vasto conocimiento que tenemos de las herramientas utilizadas en nuestros productos,
+                        nos encargaremos especialmente del mantenimiento de los mismos.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="team">
+        <div class="how-title">
+            <div class="how-title-text nuestro-equipo">
+                <p>Nuestro equipo</p>
+                <div class="cyan-underline"></div>
+            </div>
+            <div class="how-subtitle-text">
+                <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+            </div>
+        </div>
+        <div class="how-scroll">
+            <div class="how-item" #item5 [@cardAnimator]="animationState5" (@cardAnimator.done)="resetAnimationState()"
+                (swipeleft)="startAnimation('fadeOutLeft',5)">
+                <img class="item-image" src="../../../../assets/img/4-señora.jpg" />
+                <div class="team-item-text">
+                    <p class="item-title">Florencia Coppola</p>
+                    <p>Marketing - Community Management</p>
+                </div>
+            </div>
+            <div class="how-item" #item6 [@cardAnimator]="animationState6" (@cardAnimator.done)="resetAnimationState()"
+                (swipeleft)="startAnimation('fadeOutLeft',6)" (swiperight)="startAnimation('fadeOutRight',6)">
+                <img class="item-image" src="../../../../assets/img/1-señor.jpg" />
+                <div class="team-item-text">
+                    <p class="item-title">Pablo Díaz</p>
+                    <p>Desarrollo de negocios - Desarrollo Mobile & Front End</p>
+                </div>
+            </div>
+            <div class="how-item" #item7 [@cardAnimator]="animationState7" (@cardAnimator.done)="resetAnimationState()"
+                (swipeleft)="startAnimation('fadeOutLeft',7)" (swiperight)="startAnimation('fadeOutRight',7)">
+                <img class="item-image" src="../../../../assets/img/2-señora.jpg" />
+                <div class="team-item-text">
+                    <p class="item-title">Camila López</p>
+                    <p>Deseñadora Gráfica</p>
+                </div>
+            </div>
+            <div class="how-item" #item8 [@cardAnimator]="animationState8" (@cardAnimator.done)="resetAnimationState()"
+                (swiperight)="startAnimation('fadeOutRight',8)">
+                <img class="item-image" src="../../../../assets/img/3-señor.jpg" />
+                <div class="team-item-text">
+                    <p class="item-title">Joaquin Umpierrez</p>
+                    <p>Desarrollador Back-end</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+<div class="contact-container">
+    <div class="contact">
+        <div class="contact-text">
+            <p>Comenza tu proyecto hoy mismo!</p>
+        </div>
+        <div class="contact-button">
+            <button class="contact-btn">
+                <p>Contactanos</p>
+            </button>
+        </div>
+    </div>
+</div>

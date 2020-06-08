@@ -365,12 +365,12 @@
     }
 }
 
-@media (min-width: 481px) and (max-width: 767px) {
+@media (min-width: 661px) and (max-width: 767px) {
     .title-flexbox {
         display: flex;
         width: 100%;
         box-sizing: border-box;
-        height: 45vh;
+        height: 15vh;
         margin-top: 1%;
     }
     .left-title {
@@ -427,7 +427,7 @@
         flex: 1;
     }
     .image-text-flex {
-        flex: 0;
+        flex: 1;
     }
     .text-image-flex p {
         font-family: LatoRegular;
@@ -454,7 +454,7 @@
     }
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 660px) {
     .title-flexbox {
         display: flex;
         width: 100%;
