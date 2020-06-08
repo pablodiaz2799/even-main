@@ -35,13 +35,7 @@ hideMenu() {
 }
 
 itemClicked(val) {
-  if (val === 'detalle') {
-    this.router.navigateByUrl('/detalle');
-  } else if (val === 'planes') {
-    this.router.navigateByUrl('/planes');
-  } else if (val === 'nosotros') {
-    this.router.navigateByUrl('/nosotros');
-  }
+  this.router.navigateByUrl(val);
   console.log('clicked');
   this.hideMenu();
   this.someEvent.emit(val);
