@@ -20,6 +20,13 @@
 .button-flex:disabled{
     cursor: not-allowed;
 }
+.button-flex {
+    width: 93%;
+    height: 50%;
+    border-radius: 50px;
+    background-color: #00C5E5;
+    cursor: pointer;
+}
 @media (min-width: 1281px) {
     .contact-form {
         display: flex;
@@ -119,7 +126,7 @@
         width: 93%;
         height: 50%;
         border-radius: 50px;
-        background-color: rgb(112, 226, 255);
+        background-color: #00C5E5;
         cursor: pointer;
     }
     .button-flex p {
@@ -246,7 +253,6 @@
         width: 93%;
         height: 50%;
         border-radius: 50px;
-        background-color: rgb(112, 226, 255);
         cursor: pointer;
     }
     .button-flex p {
@@ -374,7 +380,6 @@
         width: 93%;
         height: 50%;
         border-radius: 50px;
-        background-color: rgb(112, 226, 255);
         cursor: pointer;
     }
     .button-flex p {
@@ -502,7 +507,6 @@
         width: 93%;
         height: 50%;
         border-radius: 50px;
-        background-color: rgb(112, 226, 255);
         cursor: pointer;
     }
     .button-flex p {
@@ -641,7 +645,6 @@
         padding-top: 3%;
         padding-bottom: 3%;
         border-radius: 50px;
-        background-color: rgb(112, 226, 255);
         cursor: pointer;
     }
     .button-flex p {

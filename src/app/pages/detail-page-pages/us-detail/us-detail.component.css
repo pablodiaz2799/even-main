@@ -35,13 +35,15 @@
 .us-subtitle-text p {
     font-family: Lato;
     font-size: 24px;
-    font-weight: bold;
     letter-spacing: 0.05em;
-    color: gray;
+    width: 90%;
 }
 
 .us-img-container {
     flex: 4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .us-img {
@@ -90,7 +92,6 @@
     font-family: Lato;
     font-size: 28px;
     letter-spacing: 0.05em;
-    color: gray;
 }
 
 .how {
@@ -132,7 +133,6 @@
     font-family: Lato;
     font-size: 28px;
     letter-spacing: 0.05em;
-    color: gray;
 }
 
 .how-scroll {
@@ -157,7 +157,6 @@
     font-family: Lato;
     font-size: 16px;
     letter-spacing: 0.05em;
-    color: gray;
 }
 
 .right-arrow {
@@ -184,7 +183,6 @@
     font-family: Lato;
     font-size: 16px;
     letter-spacing: 0.05em;
-    color: gray;
 }
 
 .item-title {
@@ -276,7 +274,7 @@
     }
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .contact {
         width: 75%;
         margin-left: 12.5%;
@@ -284,9 +282,9 @@
     .us-title-text {
         margin-top: 2vh;
     }
-}
+} */
 
-@media (max-width: 480px) {
+@media (max-width: 1023px) {
     .flex-container {
         width: 95%;
         margin-left: 2.5%;
@@ -329,7 +327,7 @@
         margin-bottom: 10vh;
     }
     .how {
-        height: 100vh;
+        height: 110vh;
     }
     .how-title-text p {
         font-size: 48px;
@@ -341,5 +339,51 @@
 
     .contact-text p, .contact-btn p{
         font-size: 14px;
+    }
+
+    .us-subtitle-text p{
+        margin-left: 5%;
+    }
+}
+
+@media ( min-width: 440px) and (max-width: 1023px){
+    .us-img{
+        width: 430px;
+    }
+    .how-subtitle-text p{
+        margin-top: 0px;
+    }
+    .how-title-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .contact{
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+
+@media (max-width: 374px){
+    .contact{
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .how{
+        height: 150vh;
+    }
+
+    .us{
+        height: 140vh;
+    }
+
+    .why{
+        height: 90vh;
+        margin-top: 10px;
+    }
+
+    .team{
+        height: 130vh;
     }
 }

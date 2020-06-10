@@ -1,4 +1,5 @@
 import { Component, OnInit, ViewChild, ElementRef, AfterViewInit, ɵSWITCH_RENDERER2_FACTORY__POST_R3__ } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-plans-detail',
@@ -13,7 +14,7 @@ export class PlansDetailComponent implements OnInit, AfterViewInit {
   @ViewChild('btn2') btn2: ElementRef;
   @ViewChild('btn3') btn3: ElementRef;
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngAfterViewInit(): void {
     this.btn1.nativeElement.style.backgroundColor = '#0dbbd8';

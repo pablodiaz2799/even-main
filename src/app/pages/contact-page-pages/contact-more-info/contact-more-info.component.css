@@ -193,6 +193,7 @@
     .flex-container {
         display: flex;
         height: auto;
+        min-height: 50vh;
         width: 100%;
         flex-direction: column;
         align-items: center;
@@ -213,8 +214,10 @@
 }
 
 @media (max-width: 660px) {
-    .flex-container {
-        height: 65vh;
+    .flex-container{
+        margin-top: 5vh;
+        height: 60vh;
+        min-height: 450px;
     }
     .text-input {
         width: 250px;
@@ -225,6 +228,10 @@
     .flex-title p {
         font-size: 24px;
         text-align: center;
+    }
+    .flex-cards{
+        display: block;
+        height: 400px;
     }
     .flex-contact {
         width: 310px;

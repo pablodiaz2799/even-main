@@ -1,22 +1,36 @@
-import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
+import { Component, OnInit, ViewChild, ElementRef, AfterViewInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
+import { Observable } from 'rxjs';
+import { map } from 'rxjs/operators';
 
 @Component({
   selector: 'app-single-page',
   templateUrl: './single-page.component.html',
   styleUrls: ['./single-page.component.css']
 })
-export class SinglePageComponent implements OnInit {
+export class SinglePageComponent implements OnInit, AfterViewInit {
   @ViewChild('planes') planes: ElementRef;
   @ViewChild('contacto') contacto: ElementRef;
   @ViewChild('nosotros') nosotros: ElementRef;
   @ViewChild('servicios') servicios: ElementRef;
-  constructor() { }
+  private state$: Observable<object>;
+  constructor(private activatedRoute: ActivatedRoute) { }
+  ngAfterViewInit(): void {
+    setTimeout(() => {
+      const el = this.activatedRoute.snapshot.queryParamMap.get('scroll');
+      switch (el) {
+          case 'contacto':
+              this.contacto.nativeElement.scrollIntoView({block: 'center'});
+              break;
+      }
+  }, 700);
+  }
 
   ngOnInit(): void {
   }
 
   scroll(target) {
-    switch(target){
+    switch (target) {
       case 'planes':
         this.planes.nativeElement.scrollIntoView({ behavior: "smooth", block: "center" });
         break;
@@ -32,11 +46,7 @@ export class SinglePageComponent implements OnInit {
     }
   }
 
-  swipe(){
-    alert('asdasd');
-  }
-
-  somefunction(data){
+  somefunction(data) {
     this.scroll(data);
   }
 

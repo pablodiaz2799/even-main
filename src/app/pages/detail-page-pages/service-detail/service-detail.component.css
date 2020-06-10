@@ -58,8 +58,8 @@
 .title-text{
     font-family: LatoRegular;
     font-size: 72px;
-    letter-spacing: 0.1em;
-    color: gray;
+    font-weight: bold;
+    letter-spacing: 0.05em;
 }
 
 .subtitle-text{

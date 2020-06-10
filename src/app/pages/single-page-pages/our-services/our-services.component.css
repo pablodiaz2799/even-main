@@ -1,11 +1,14 @@
+.title-flexbox {
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    height: 15vh;
+    margin-top: 10%;
+}
+
+
+
 @media (min-width: 1281px) {
-    .title-flexbox {
-        display: flex;
-        width: 100%;
-        box-sizing: border-box;
-        height: 15vh;
-        margin-top: 1%;
-    }
     .left-title {
         flex: 7;
     }
@@ -16,7 +19,6 @@
         font-family: Lato;
         font-weight: bold;
         font-size: 54px;
-        color: rgb(100, 99, 99);
         letter-spacing: 0.03em;
         padding-right: 10%;
     }
@@ -35,6 +37,7 @@
         flex: 1;
         transition: 0.3s;
         border-radius: 20px;
+        margin: 10px;
         cursor: pointer;
     }
     .row-item:hover{
@@ -102,7 +105,7 @@
         width: 100%;
         box-sizing: border-box;
         height: 15vh;
-        margin-top: 1%;
+        margin-top: 10%;
     }
     .left-title {
         flex: 0;
@@ -116,7 +119,6 @@
         font-family: Lato;
         font-weight: bold;
         font-size: 42px;
-        color: rgb(100, 99, 99);
         letter-spacing: 0.03em;
     }
     .icons {
@@ -193,7 +195,7 @@
         width: 100%;
         box-sizing: border-box;
         height: 15vh;
-        margin-top: 1%;
+        margin-top: 10%;
     }
     .left-title {
         flex: 0;
@@ -207,7 +209,6 @@
         font-family: Lato;
         font-weight: bold;
         font-size: 42px;
-        color: rgb(100, 99, 99);
         letter-spacing: 0.03em;
     }
     .icons {
@@ -282,7 +283,7 @@
         width: 100%;
         box-sizing: border-box;
         height: 15vh;
-        margin-top: 1%;
+        margin-top: 10%;
     }
     .left-title {
         flex: 0;
@@ -296,7 +297,6 @@
         font-family: Lato;
         font-weight: bold;
         font-size: 42px;
-        color: rgb(100, 99, 99);
         letter-spacing: 0.03em;
     }
     .icons {
@@ -371,7 +371,7 @@
         width: 100%;
         box-sizing: border-box;
         height: 15vh;
-        margin-top: 1%;
+        margin-top: 10%;
     }
     .left-title {
         flex: 0;
@@ -385,7 +385,6 @@
         font-family: Lato;
         font-weight: bold;
         font-size: 42px;
-        color: rgb(100, 99, 99);
         letter-spacing: 0.03em;
     }
     .icons {
@@ -460,7 +459,7 @@
         width: 100%;
         box-sizing: border-box;
         height: 30vh;
-        margin-top: 1%;
+        margin-top: 10%;
     }
     .left-title {
         flex: 0;
@@ -474,7 +473,6 @@
         font-family: Lato;
         font-weight: bold;
         font-size: 36px;
-        color: rgb(100, 99, 99);
         letter-spacing: 0.03em;
     }
     .icons {
