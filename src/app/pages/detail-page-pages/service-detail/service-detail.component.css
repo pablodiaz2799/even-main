@@ -270,6 +270,11 @@
     }
     .rows-container{
         margin-top: 0.5vh;
+        min-height: 700px;
+    }
+
+    .first-row{
+        min-height: auto !important;
     }
 
     .detail-title{

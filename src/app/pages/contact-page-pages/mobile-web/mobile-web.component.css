@@ -180,7 +180,8 @@
 
 @media (max-width: 660px){
     .flex-container{
-        height: 100vh;
+        height: 110vh;
+        min-height: 740px;
     }
 
     .flex-title{

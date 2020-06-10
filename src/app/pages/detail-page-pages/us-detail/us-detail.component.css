@@ -347,6 +347,10 @@
 }
 
 @media ( min-width: 440px) and (max-width: 1023px){
+    .us{
+        min-height: 700px;
+    }
+
     .us-img{
         width: 430px;
     }
@@ -364,7 +368,7 @@
     }
 }
 
-@media (max-width: 374px){
+@media (max-width: 439px) and (orientation: landscape){
     .contact{
         width: 80%;
         margin-left: 10%;
@@ -376,6 +380,32 @@
 
     .us{
         height: 140vh;
+        min-height: 500px;
+    }
+
+    .why{
+        height: 90vh;
+        margin-top: 10px;
+    }
+
+    .team{
+        height: 130vh;
+    }
+}
+
+@media (max-width: 439px){
+    .contact{
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .how{
+        height: 150vh;
+    }
+
+    .us{
+        height: 140vh;
+        min-height: 500px;
     }
 
     .why{

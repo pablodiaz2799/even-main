@@ -282,6 +282,7 @@
         height: 25vh;
         align-items: flex-start;
         flex-direction: column;
+        padding-bottom: 30px;
     }
     .footer-section {
         flex: 1;

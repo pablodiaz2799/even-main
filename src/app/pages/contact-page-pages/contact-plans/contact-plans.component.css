@@ -230,6 +230,9 @@
     .flex-contact {
         width: 310px;
     }
+    .flex-cards{
+        min-height: 1600px;
+    }
     .card {
         flex: 6;
         width: 300px;
@@ -238,6 +241,13 @@
     .card-img {
         margin-top: 20px;
         width: 40%;
+    }
+    .card-title p{
+        font-size: 20px;
+    }
+    .card-description p {
+        width: 70%;
+        margin-left: 15%;
     }
     .title p {
         font-size: 18px;
