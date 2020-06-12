@@ -21,6 +21,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { SweetAlert2Module } from '@sweetalert2/ngx-sweetalert2';
 import { ContactPageComponent } from './layouts/contact-page/contact-page.component';
+import { AlternateFooterComponent } from './shared/alternate-footer/alternate-footer.component';
 
 export class HammerConfig extends HammerGestureConfig {
     overrides = {
@@ -44,6 +45,7 @@ export class HammerConfig extends HammerGestureConfig {
         ContactComponent,
         PlansComponent,
         FooterComponent,
+        AlternateFooterComponent,
         NavbarComponent,
         OurServicesComponent,
         DetailPageComponent,

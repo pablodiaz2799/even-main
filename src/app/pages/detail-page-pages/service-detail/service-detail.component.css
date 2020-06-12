@@ -278,13 +278,13 @@
     }
 
     .detail-title{
-        height: 50vh;
+        height: 30vh;
     }
 
     .right-wheel{
-        height: 40%;
-        right: -100px;
-        bottom: 20px;
+        height: 50%;
+        right: -50px;
+        bottom: 0px;
     }
 
     .right-small-wheel{
@@ -307,10 +307,10 @@
 
     .left-small-wheel{
         position: absolute;
-        height: 50%;
+        height: 30%;
         margin-top: 2%;
-        left: -180px;
-        top: -150px;
+        left: -120px;
+        top: -120px;
         z-index: -1;
     }
 

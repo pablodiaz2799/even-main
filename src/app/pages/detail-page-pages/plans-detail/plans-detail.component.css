@@ -264,7 +264,8 @@ td p {
         transition: 0.5s;
     }
     .flex-btn p{
-        font-family: Lato;
+        font-family: LatoRegular;
+        font-weight: bold;
         font-size: 18px;
         letter-spacing: 0.05em;
     }
@@ -286,11 +287,16 @@ td p {
     }
     .left{
         flex: 4;
+        display: flex;
+        align-items: center;
         text-align: left;
 
     }
     .right{
         flex:1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         text-align: center;
     }
 

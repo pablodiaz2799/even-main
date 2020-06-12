@@ -182,6 +182,7 @@
     .flex-container{
         height: 110vh;
         min-height: 740px;
+        margin-bottom: 80px;
     }
 
     .flex-title{
@@ -215,6 +216,17 @@
 
     .title p{
         font-size: 18px;
+    }
+
+    .contact-btn{
+        width: 270px;
+        margin-left: 0px;
+    }
+
+    .contact-button{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .subtitle p{
