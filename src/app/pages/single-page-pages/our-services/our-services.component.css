@@ -53,7 +53,7 @@
         width: 80%;
         margin-left: 10%;
         color: rgb(100, 99, 99);
-        text-align: center;
+        text-align: justify;
     }
     .icon-img {
         width: 50%;
@@ -143,6 +143,7 @@
         width: 80%;
         margin-left: 10%;
         color: rgb(100, 99, 99);
+        text-align: justify;
     }
     .icon-img {
         width: 50%;
@@ -232,6 +233,7 @@
         letter-spacing: 0.05em;
         width: 80%;
         margin-left: 10%;
+        text-align: justify;
         color: rgb(100, 99, 99);
     }
     .icon-img {
@@ -321,6 +323,7 @@
         width: 80%;
         margin-left: 10%;
         color: rgb(100, 99, 99);
+        text-align: justify;
     }
     .icon-img {
         width: 50%;
@@ -408,6 +411,7 @@
         letter-spacing: 0.05em;
         width: 80%;
         margin-left: 10%;
+        text-align: justify;
         color: rgb(100, 99, 99);
     }
     .icon-img {
@@ -496,6 +500,7 @@
         letter-spacing: 0.05em;
         width: 80%;
         margin-left: 10%;
+        text-align: justify;
         color: rgb(100, 99, 99);
     }
     .icon-img {

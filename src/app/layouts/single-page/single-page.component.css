@@ -323,6 +323,7 @@
         flex: 1;
         width: 100%;
         box-sizing: border-box;
+        text-align: center;
     }
     .introTitle {
         color: white;
@@ -481,6 +482,7 @@
     }
     .introText {
         flex: 1;
+        text-align: center;
     }
     .introTitle {
         color: white;
@@ -639,6 +641,7 @@
     }
     .introText {
         flex: 1;
+        text-align: center;
     }
     .introTitle {
         color: white;
@@ -963,6 +966,7 @@
         letter-spacing: 0.05em;
         margin-top: 10%;
         margin-bottom: 2%;
+        text-align: center;
     }
     .introDesc {
         color: white;
@@ -970,6 +974,7 @@
         font-family: Lato;
         letter-spacing: 0.1em;
         margin-bottom: 3%;
+        text-align: center;
     }
     .introImgContainer {
         flex: 0;
@@ -986,6 +991,8 @@
         padding-left: 10%;
         padding-right: 10%;
         border-radius: 50px;
+        width: 50%;
+        margin-left: 25%;
         background-color: #0dbbd8;
         cursor: pointer;
     }

@@ -162,6 +162,7 @@
     }
     .text-image-flex {
         flex: 1;
+        text-align: center;
     }
     .image-text-flex {
         flex: 0;
@@ -182,7 +183,7 @@
         font-size: 42px;
         letter-spacing: 0.03em;
         padding-bottom: 20px;
-        border-bottom: 5px solid rgb(112, 226, 255);
+        text-align: center;
     }
     .text-image-flex img {
         width: 85%;
@@ -252,6 +253,7 @@
     }
     .text-image-flex {
         flex: 1;
+        text-align: center;
     }
     .image-text-flex {
         flex: 0;
@@ -269,7 +271,7 @@
     .text-image-flex span.text-image-title {
         font-family: Lato;
         font-weight: bold;
-        font-size: 42px;
+        font-size: 36px;
         letter-spacing: 0.03em;
     }
     .text-image-flex img {
@@ -357,7 +359,7 @@
     .text-image-flex span.text-image-title {
         font-family: Lato;
         font-weight: bold;
-        font-size: 42px;
+        font-size: 36px;
         letter-spacing: 0.03em;
     }
     .image-text-flex img {
@@ -428,6 +430,7 @@
     }
     .text-image-flex {
         flex: 1;
+        text-align: center;
     }
     .image-text-flex {
         flex: 0;
@@ -456,7 +459,7 @@
     }
 }
 
-@media (min-width: 320px) and (max-width: 660px) {
+@media (max-width: 660px) {
     .title-flexbox {
         display: flex;
         width: 100%;
@@ -517,6 +520,7 @@
     }
     .text-image-flex {
         flex: 1;
+        text-align: center;
     }
     .image-text-flex {
         flex: 0;
@@ -536,7 +540,7 @@
         font-weight: bold;
         width: 90%;
         margin-left: 5%;
-        font-size: 30px;
+        font-size: 23px;
         letter-spacing: 0.03em;
     }
     .image-text-flex img {

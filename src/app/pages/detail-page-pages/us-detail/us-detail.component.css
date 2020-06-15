@@ -57,8 +57,8 @@
     flex-direction: column;
     text-align: center;
     align-content: center;
-    height: 45vh;
-    margin-bottom: 40vh;
+    height: 60vh;
+    margin-bottom: 35vh;
 }
 
 .why-title {
@@ -102,6 +102,7 @@
     height: 90vh;
     text-align: center;
     align-content: center;
+    margin-bottom: 20vh;
 }
 
 .how-title {
@@ -270,6 +271,9 @@
     .contact-btn p {
         font-size: 18px;
     }
+    .why{
+        margin-bottom: 10vh;
+    }
 }
 
 @media (max-width: 1024px) {
@@ -376,6 +380,7 @@
     .contact{
         width: 80%;
         margin-left: 10%;
+        margin-top: 0px;
     }
 
     .how{
@@ -401,23 +406,47 @@
     .contact{
         width: 80%;
         margin-left: 10%;
+        margin-top: 0px;
+        height: 60px;
+    }
+
+    .contact-container, .contact-button{
+        margin-top: 0px;
     }
 
     .how{
-        height: 150vh;
+        height: 900px;
+        margin-bottom: 25px;
+    }
+
+    .how-title-text p{
+        font-size: 36px;
     }
 
     .us{
-        height: 140vh;
+        height: 850px;
         min-height: 500px;
     }
 
+    .us-title-text p{
+        font-size: 36px;
+    }
+
+    .us-img-container{
+        flex: 2;
+    }
+
     .why{
-        height: 90vh;
+        height: 500px;
         margin-top: 10px;
     }
 
+    .why-title p{
+        font-size: 36px;
+    }
+
     .team{
-        height: 130vh;
+        height: 900px;
+        margin-bottom: 0px;
     }
 }

@@ -106,10 +106,10 @@
         <div class="how-scroll">
             <div class="how-item" #item5 [@cardAnimator]="animationState5" (@cardAnimator.done)="resetAnimationState()"
                 (swipeleft)="startAnimation('fadeOutLeft',5)">
-                <img class="item-image" src="../../../../assets/img/4-señora.jpg" />
+                <img class="item-image" src="../../../../assets/img/3-señor.jpg" />
                 <div class="team-item-text">
-                    <p class="item-title">Florencia Coppola</p>
-                    <p>Marketing - Community Management</p>
+                    <p class="item-title">Joaquín Umpierrez</p>
+                    <p>Desarrollador Back End</p>
                 </div>
             </div>
             <div class="how-item" #item6 [@cardAnimator]="animationState6" (@cardAnimator.done)="resetAnimationState()"
@@ -122,34 +122,32 @@
             </div>
             <div class="how-item" #item7 [@cardAnimator]="animationState7" (@cardAnimator.done)="resetAnimationState()"
                 (swipeleft)="startAnimation('fadeOutLeft',7)" (swiperight)="startAnimation('fadeOutRight',7)">
-                <img class="item-image" src="../../../../assets/img/2-señora.jpg" />
+                <img class="item-image" src="../../../../assets/img/4-señora.jpg" />
                 <div class="team-item-text">
-                    <p class="item-title">Camila López</p>
-                    <p>Deseñadora Gráfica</p>
+                    <p class="item-title">Florencia Coppola</p>
+                    <p>Marketing - Community Management</p>
                 </div>
             </div>
             <div class="how-item" #item8 [@cardAnimator]="animationState8" (@cardAnimator.done)="resetAnimationState()"
                 (swiperight)="startAnimation('fadeOutRight',8)">
-                <img class="item-image" src="../../../../assets/img/3-señor.jpg" />
+                <img class="item-image" src="../../../../assets/img/2-señora.jpg" />
                 <div class="team-item-text">
-                    <p class="item-title">Joaquin Umpierrez</p>
-                    <p>Desarrollador Back-end</p>
+                    <p class="item-title">Camila López</p>
+                    <p>Diseñadora Gráfica</p>
                 </div>
             </div>
         </div>
     </div>
-
-
-</div>
-<div class="contact-container">
-    <div class="contact">
-        <div class="contact-text">
-            <p>Comenza tu proyecto hoy mismo!</p>
-        </div>
-        <div class="contact-button">
-            <button class="contact-btn" routerLink="/contacto/plataforma">
-                <p>Contactanos</p>
-            </button>
+    <div class="contact-container">
+        <div class="contact">
+            <div class="contact-text">
+                <p>Comenza tu proyecto <br>hoy mismo!</p>
+            </div>
+            <div class="contact-button">
+                <button class="contact-btn" routerLink="/contacto/plataforma">
+                    <p>Contactanos</p>
+                </button>
+            </div>
         </div>
     </div>
 </div>
