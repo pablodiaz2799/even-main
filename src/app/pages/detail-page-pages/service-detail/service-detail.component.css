@@ -7,7 +7,7 @@
 .detail-title{
     position: relative;
     max-width: 100vw;
-    height: 75vh;
+    height: 55vh;
     overflow: hidden;
     margin-top: 1vh;
     margin-bottom: 1vh;
@@ -15,9 +15,9 @@
 
 .right-wheel{
     position: absolute;
-    height: 90%;
+    height: 95%;
     margin-top: 2%;
-    right: -300px;
+    right: -250px;
     overflow-x: hidden;
     z-index: -1;
 }
@@ -76,6 +76,10 @@
     margin-top: 17vh;
     display:flex;
     align-items: center;
+}
+
+.top{
+    margin-top: 0vh !important;
 }
 
 .flex-container-wheel{
@@ -196,74 +200,159 @@
     }
 }
 
-@media (max-width: 1024px) {
-    .contact-btn p{
-        font-size: 18px;
+@media (min-width: 651px) and (max-width: 1024px) {
+    .flex-section{
+        height: 100vh;
+        margin-bottom: 0vh !important;
+    }
+    .rows-container{
+        margin-top: 0.5vh;
+        min-height: 700px;
     }
 
-    .contact-text p{
-        font-size: 24px;
+    .first-row{
+        min-height: auto !important;
     }
 
-    .contact-btn{
-        margin-top: 15%;
+    .title-content{
+        width: 75%;
+        margin-left: 12.5%;
+        margin-top: 2vh;
     }
 
-    .flex-description{
-        font-size: 18px;
+    .detail-title{
+        height: 30vh;
     }
 
     .title-text{
-        font-size: 54px;
+        font-size: 36px;
+        text-align: center;
     }
 
     .subtitle-text{
+        width: 100%;
         font-size: 20px;
+        margin-top: 2vh;
+        text-align: justify;
     }
 
-    .contact-text p{
-        font-size: 20px;
+    .right-wheel{
+        height: 50%;
+        right: -50px;
+        bottom: 0px;
     }
-}
 
-@media (max-width: 767px) {
+    .right-small-wheel{
+        position: absolute;
+        height: 30%;
+        margin-top: 2%;
+        right: -140px;
+        overflow-x: hidden;
+        z-index: -1;
+    }
+
+    .left-wheel{
+        position: absolute;
+        height: 40%;
+        margin-top: 2%;
+        left: -250px;
+        bottom: -40px;
+        z-index: -1;
+    }
+
+    .left-small-wheel{
+        position: absolute;
+        height: 30%;
+        margin-top: 2%;
+        left: -120px;
+        top: -120px;
+        z-index: -1;
+    }
 
     .flex-section{
-        height: 100vh;
-        margin-bottom: 7vh !important;
+        max-width: 75%;
+        margin-left: 12.5%;
+        margin-top: 0vh;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .rev{
+        flex-direction: column-reverse;
+    }
+
+    .img-flex{
+        flex: 1;
+    }
+
+    .text-flex{
+        flex: 1;
+        text-align: center;
+    }
+
+    .img-service{
+        padding-left: 0%;
+        height: auto;
+        width: 500px;
     }
 
     .flex-title{
-        font-size: 24px;
+        font-size: 22px;
+        margin-left: 0%
+    }
+
+    .first{
+        margin-left: 0%;
     }
 
     .flex-description{
         font-size: 18px;
-        width: 70%;
+        width: 100%;
+        margin-left: 0%;
+        margin-top: 2vh;
+        text-align: justify;
     }
+
+    .contact-container{
+        width: 100%;
+        height: 10vh;
+        margin-top: 2vh;
+        margin-bottom: 70px;
+    }
+
+    .contact{
+        width: 80%;
+        margin-left: 10%;
+        height: 10vh;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+
 
     .contact-text p{
-        font-size: 14px;
+        font-size: 18px;
     }
 
-    .contact-btn p{
-        font-size: 14px;
+    .contact-button{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
     }
 
     .contact-btn{
-        margin-top: 25%;
+        margin-top: 0%;
+        margin-left: 0%;
     }
 
-    .subtitle-text{
-        font-size: 16px;
-    }
+    .contact-btn p{
+        font-size: 18px;
 
-    .img-service{
-        margin-top: 10vh;
     }
 }
 
-@media (min-width: 320px) and (max-width: 766px) {
+@media (max-width: 650px) {
     .flex-section{
         height: 100vh;
         margin-bottom: 0vh !important;
@@ -395,8 +484,16 @@
         font-size: 14px;
     }
 
+    .contact-button{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
     .contact-btn{
-        margin-top: 15%;
+        margin-top: 0%;
+        margin-left: 0%;
     }
 
     .contact-btn p{

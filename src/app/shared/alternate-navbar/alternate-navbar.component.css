@@ -178,7 +178,7 @@
     }
 }
 
-@media (min-width: 481px) and (max-width: 767px) {
+@media (min-width: 700px) and (max-width: 767px) {
     .flex-div {
         display: flex;
         height: 10vh;
@@ -237,7 +237,7 @@
     }
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (max-width: 699px) {
 
     .flex-div {
         display: flex;

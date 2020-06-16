@@ -232,7 +232,7 @@
     }
 }
 
-@media (min-width: 320px) and (max-width: 699px) {
+@media (max-width: 699px) {
     
     .flex-div {
         display: flex;

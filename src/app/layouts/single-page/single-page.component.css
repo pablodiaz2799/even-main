@@ -323,7 +323,7 @@
         flex: 1;
         width: 100%;
         box-sizing: border-box;
-        text-align: center;
+        text-align: left;
     }
     .introTitle {
         color: white;
@@ -482,7 +482,7 @@
     }
     .introText {
         flex: 1;
-        text-align: center;
+        text-align: left;
     }
     .introTitle {
         color: white;

@@ -134,12 +134,12 @@
     }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 690px) and (max-width: 1024px) {
     .footer-flex {
         width: 80%;
         margin-left: 10%;
         display: flex;
-        height: 40vh;
+        height: 25vh;
     }
     .footer-section {
         flex: 1;
@@ -202,7 +202,7 @@
     }
 }
 
-@media (min-width: 481px) and (max-width: 767px) {
+/* @media (min-width: 550px) and (max-width: 689px) {
     .footer-flex {
         width: 80%;
         margin-left: 10%;
@@ -272,9 +272,9 @@
         height: auto;
         margin-left: 15%;
     }
-}
+} */
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (max-width: 689px) {
     .footer-flex {
         width: 90%;
         margin-left: 5%;
