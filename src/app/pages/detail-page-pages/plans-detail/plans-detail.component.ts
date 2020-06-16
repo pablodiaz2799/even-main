@@ -54,4 +54,8 @@ export class PlansDetailComponent implements OnInit, AfterViewInit {
   ngOnInit(): void {
   }
 
+  get(plan){
+    this.router.navigateByUrl('/contacto/proyecto', {state:{plat: 'web', type: plan}});
+  }
+
 }
