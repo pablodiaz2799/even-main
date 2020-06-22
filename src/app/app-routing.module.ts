@@ -6,6 +6,7 @@ import {DetailPageComponent} from './layouts/detail-page/detail-page.component';
 import {DETAIL_ROUTES} from './shared/routes/detail-page.routes';
 import { ContactPageComponent } from './layouts/contact-page/contact-page.component';
 import { CONTACT_ROUTES } from './shared/routes/contact-page.routes';
+import { MercadoPagoComponent } from './pages/paymentTest/mercado-pago/mercado-pago.component';
 
 const routes: Routes = [
   {
@@ -16,6 +17,9 @@ const routes: Routes = [
   },
   {
     path: '', component: ContactPageComponent, data: {title: 'contact page views'}, children: CONTACT_ROUTES
+  },
+  {
+    path: 'paymentTest', component: MercadoPagoComponent
   }
 ];
 

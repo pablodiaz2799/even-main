@@ -22,6 +22,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { SweetAlert2Module } from '@sweetalert2/ngx-sweetalert2';
 import { ContactPageComponent } from './layouts/contact-page/contact-page.component';
 import { AlternateFooterComponent } from './shared/alternate-footer/alternate-footer.component';
+import { MercadoPagoComponent } from './pages/paymentTest/mercado-pago/mercado-pago.component';
 
 export class HammerConfig extends HammerGestureConfig {
     overrides = {
@@ -51,6 +52,7 @@ export class HammerConfig extends HammerGestureConfig {
         DetailPageComponent,
         AlternateNavbarComponent,
         ContactPageComponent,
+        MercadoPagoComponent,
     ],
     imports: [
         BrowserModule,

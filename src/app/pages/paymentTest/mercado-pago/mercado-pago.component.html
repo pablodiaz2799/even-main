@@ -1,0 +1,11 @@
+<div *ngIf="!paidFor">
+    <h1>Buy this couch! -${{product.price}}OBO</h1>
+
+    <p>{{product.description}}</p>
+</div>
+
+<div *ngIf="paidFor">
+    <p>Cheers mate</p>
+</div>
+
+<div #paypal></div>
