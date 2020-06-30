@@ -1,0 +1,153 @@
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    height: 650px;
+}
+
+.flex-title {
+    flex: 1;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.flex-title p {
+    font-family: Lato;
+    font-size: 54px;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    text-align: center;
+    margin-bottom: 42px;
+}
+
+.underline {
+    margin-bottom: 80px;
+    height: 5px;
+    width: 5%;
+    background-color: #0dbbd8;
+    border-radius: 50px;
+}
+
+.flex-items-container {
+    flex: 2;
+    display: flex;
+    width: 100%;
+}
+
+.flex-items{
+    flex: 1;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-img{
+    width: 550px;
+    height: auto;
+    transition: 0.3s;
+}
+
+.flex-img:hover {
+    width: 580px;
+}
+
+@media (max-width: 1680px){
+    .flex-img{
+        width: 480px;
+    }
+
+    .flex-img:hover {
+        width: 510px;
+    }
+}
+
+@media (max-width: 1580px){
+    .flex-img{
+        width: 430px;
+    }
+
+    .flex-img:hover {
+        width: 460px;
+    }
+}
+
+@media (max-width: 1440px){
+    .flex-img{
+        width: 390px;
+    }
+
+    .flex-img:hover {
+        width: 420px;
+    }
+}
+
+@media (max-width: 1270px){
+    .flex-img{
+        width: 330px;
+    }
+
+    .flex-img:hover {
+        width: 360px;
+    }
+
+    .flex-title p {
+        font-family: Lato;
+        font-weight: bold;
+        font-size: 42px;
+        letter-spacing: 0.03em;
+    }
+}
+
+@media (max-width: 1080px){
+    .flex-container{
+        height: auto;
+    }
+
+    .flex-items-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flex-img{
+        width: 430px;
+        margin: 10px;
+    }
+
+    .flex-img:hover {
+        width: 460px;
+    }
+
+    .flex-items{
+        height: 490px;
+    }
+}
+
+@media (max-width: 1024px){
+    .flex-title p{
+        font-size: 36px;
+    }
+}
+
+@media ( max-width: 660px){
+    .flex-title p{
+        font-size: 23px;
+    }
+    .underline {
+        width: 50px;
+    }
+    .flex-img{
+        width: 290px;
+        margin: 10px;
+    }
+
+    .flex-img:hover {
+        width: 310px;
+    }
+}

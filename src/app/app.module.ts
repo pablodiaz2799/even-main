@@ -23,6 +23,7 @@ import { SweetAlert2Module } from '@sweetalert2/ngx-sweetalert2';
 import { ContactPageComponent } from './layouts/contact-page/contact-page.component';
 import { AlternateFooterComponent } from './shared/alternate-footer/alternate-footer.component';
 import { MercadoPagoComponent } from './pages/paymentTest/mercado-pago/mercado-pago.component';
+import { TemplatesComponent } from './pages/single-page-pages/templates/templates.component';
 
 export class HammerConfig extends HammerGestureConfig {
     overrides = {
@@ -53,6 +54,7 @@ export class HammerConfig extends HammerGestureConfig {
         AlternateNavbarComponent,
         ContactPageComponent,
         MercadoPagoComponent,
+        TemplatesComponent,
     ],
     imports: [
         BrowserModule,
